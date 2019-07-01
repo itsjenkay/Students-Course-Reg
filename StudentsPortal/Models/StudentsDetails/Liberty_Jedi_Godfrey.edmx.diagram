@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b99f4d527e064a5ba1c71f5c42f6717c" Name="Diagram1">
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.ADMISSION_TYPE" Width="1.5" PointX="9" PointY="75.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.ADMISSION" Width="1.5" PointX="25.5" PointY="92.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.ADVERTMEAN" Width="1.5" PointX="12" PointY="77.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.APPOINTMENT" Width="1.5" PointX="19.5" PointY="75.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.APPOINTMENT_ALLOCATION" Width="1.5" PointX="19.5" PointY="80" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.AUDIT_ACTION" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.AUDIT_TRAIL" Width="1.5" PointX="19.5" PointY="82.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.BLOCKED_IP" Width="1.5" PointX="21.75" PointY="83.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.BLOOD_GROUP" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.CERTIFICATE_OBTAINED" Width="1.5" PointX="23.25" PointY="103.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.COUNTRY" Width="1.5" PointX="3.75" PointY="79.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.COURSE" Width="1.5" PointX="20.25" PointY="69.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.COURSE_REGISTRATION" Width="1.5" PointX="33" PointY="83" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.COURSE_TIME_TABLE_SCHEDULE" Width="1.5" PointX="22.5" PointY="78.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.COURSE_TYPE" Width="1.5" PointX="18" PointY="68.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.COURSE_UNIT_ALLOCATION" Width="1.5" PointX="23.25" PointY="68.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.DAY" Width="1.5" PointX="20.25" PointY="66" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.DEPARTMENT" Width="1.5" PointX="9" PointY="63.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.DISABILITY" Width="1.5" PointX="3.75" PointY="81.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.ETRANZACT_FEE_SCHEDULE" Width="1.5" PointX="6" PointY="54.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.ETRANZACT_PAYMENT" Width="1.5" PointX="8.25" PointY="88" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.ETRANZACT_TERMINAL" Width="1.5" PointX="6" PointY="81" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.EVENT" Width="1.5" PointX="19.5" PointY="91.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.FACULTY" Width="1.5" PointX="6.75" PointY="65" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.FEE" Width="1.5" PointX="0.75" PointY="90.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.FEE_DETAIL" Width="1.5" PointX="3" PointY="92.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.FEE_SCHEDULE" Width="1.5" PointX="3.75" PointY="55.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.GENDER" Width="1.5" PointX="0.75" PointY="93.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.GENOTYPE" Width="1.5" PointX="3.75" PointY="84.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.HOSTEL" Width="1.5" PointX="3" PointY="98.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.HOSTEL_ALLOCATION_CRITERIA" Width="1.5" PointX="10.5" PointY="95.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.JUPEB_ADMISSIONS" Width="1.5" PointX="27.5" PointY="83.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.JUPEB_FACULTY" Width="1.5" PointX="6.75" PointY="113.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.JUPEB_PROSPECTIVE_APPLIED_COURSE" Width="1.5" PointX="11.25" PointY="89.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.JUPEB_SUBJECT_COMBINATION" Width="1.5" PointX="9" PointY="113.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.LEVEL" Width="1.5" PointX="18" PointY="71.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.LOCAL_GOVERNMENT" Width="1.5" PointX="3.75" PointY="87" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.MAIL" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.NEWS" Width="1.5" PointX="24.5" PointY="84.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.NEXT_OF_KIN" Width="1.5" PointX="11.25" PointY="85.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.OFFLINE_PAYMENT" Width="1.5" PointX="18.5" PointY="99.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PAYBILL_PAYMENT" Width="1.5" PointX="15.5" PointY="98.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PAYBILL_PAYMENT_LOG" Width="1.5" PointX="15.5" PointY="105.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PAYMENT" Width="1.5" PointX="13.25" PointY="92.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PAYMENT_INSTALLMENT" Width="1.5" PointX="11" PointY="110.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PAYMENT_MEDIUM" Width="1.5" PointX="11" PointY="93" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PAYSTACK" Width="1.5" PointX="15.5" PointY="113.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PERSON" Width="1.5" PointX="6" PointY="84.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PERSON_TYPE" Width="1.5" PointX="3.75" PointY="103" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.POSTGRADUATE_ADMISSIONS" Width="1.5" PointX="28.5" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.POSTGRADUATE_APPLIED_COURSE" Width="1.5" PointX="8.25" PointY="84.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.POSTGRADUATE_COURSE" Width="1.5" PointX="8.25" PointY="116.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.POSTGRADUATE_COURSE_REGISTRATION" Width="1.5" PointX="10.5" PointY="101" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.POSTGRADUATE_COURSE_UNIT_ALLOCATION" Width="1.5" PointX="13.25" PointY="99.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.POSTGRADUATE_DEPARTMENT" Width="1.5" PointX="6" PointY="59.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.POSTGRADUATE_FACULTY" Width="1.5" PointX="3.75" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.POSTGRADUATE_LEVEL" Width="1.5" PointX="6" PointY="117.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.POSTGRADUATE_STUDENT" Width="1.5" PointX="8.25" PointY="94" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.POSTGRADUATE_STUDENT_LEVEL" Width="1.5" PointX="18.5" PointY="103" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROGRAMME" Width="1.5" PointX="9" PointY="69.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROGRAMME_DEPARTMENT" Width="1.5" PointX="11.25" PointY="68" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_APPLIED_COURSE" Width="1.5" PointX="14.25" PointY="89.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_JAMB_INFORMATION" Width="1.5" PointX="8.25" PointY="134.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_EXAM_ATTEMPT" Width="1.5" PointX="12" PointY="74.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_EXAM_TYPE" Width="1.5" PointX="12" PointY="71.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_RESULT" Width="1.5" PointX="14.25" PointY="85" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_RESULT_DETAIL" Width="1.5" PointX="22.5" PointY="88.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_SUBJECT" Width="1.5" PointX="20.25" PointY="107.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_SUBJECT_GRADE" Width="1.5" PointX="20.25" PointY="109.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_PROGRESS" Width="1.5" PointX="14" PointY="69.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_SECOND_APPLIED_COURSE" Width="1.5" PointX="11.25" PointY="81.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_STUDENT" Width="1.5" PointX="16.25" PointY="93.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_STUDENT_PREVIOUS_EDUCATION" Width="1.5" PointX="8.25" PointY="151.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PUBLICATION_TYPE" Width="1.5" PointX="20.25" PointY="112.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.QUIZ_TIME_TABLE_SCHEDULE" Width="1.5" PointX="19.5" PointY="87" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.REFERAL_SYSTEM" Width="1.5" PointX="14.25" PointY="81.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.REFEREE" Width="1.5" PointX="24.5" PointY="97.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.RELATIONSHIP" Width="1.5" PointX="9" PointY="107.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.RELIGION" Width="1.5" PointX="3.75" PointY="105.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.REMITA_PAYMENT" Width="1.5" PointX="15.5" PointY="117.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.REMITA_PAYMENT_SETTINGS" Width="1.5" PointX="6" PointY="51.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.REMITA_SPLIT_DETAILS" Width="1.5" PointX="2.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.RIGHT" Width="1.5" PointX="23.25" PointY="72.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.ROLE" Width="1.5" PointX="3.75" PointY="108" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.ROOM_CAPACITY" Width="1.5" PointX="3" PointY="115.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.ROOM_CORNER" Width="1.5" PointX="7.5" PointY="102.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.ROOM" Width="1.5" PointX="5.25" PointY="98.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.SEMESTER" Width="1.5" PointX="6" PointY="76.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.SERIES" Width="1.5" PointX="3" PointY="118.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.SERIES_SETTING" Width="1.5" PointX="8.25" PointY="98.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.SESSION" Width="1.5" PointX="6" PointY="70" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.SESSION_SEMESTER" Width="2.5" PointX="19.25" PointY="62.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STAFF" Width="1.5" PointX="17.25" PointY="86.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STAFF_COURSE_ALLOCATION" Width="1.5" PointX="22.5" PointY="75.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STAFF_IMAGES" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STAFF_PUBLICATIONS" Width="1.5" PointX="22.5" PointY="92.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STAFF_QUALIFICATIONS" Width="1.5" PointX="25.5" PointY="88.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STAFF_RATING" Width="1.5" PointX="8.25" PointY="79.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STAFF_TYPE" Width="1.5" PointX="15" PointY="78.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STAFF_WORKING_EXPERIENCE" Width="1.5" PointX="19.5" PointY="95.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STATE" Width="1.5" PointX="1.5" PointY="86.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STATUS" Width="1.5" PointX="14" PointY="122.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STUDENT" Width="1.5" PointX="30.75" PointY="88.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STUDENT_CATEGORY" Width="1.5" PointX="28.5" PointY="81" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STUDENT_GRADE" Width="1.5" PointX="8.25" PointY="121.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STUDENT_HOSTEL" Width="1.5" PointX="33" PointY="96" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STUDENT_LEVEL" Width="1.5" PointX="33" PointY="90.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STUDENT_RESULT" Width="1.5" PointX="35.25" PointY="82.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STUDENT_STATUS" Width="1.5" PointX="28.5" PointY="93.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.TABLE_LIST" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.TITLE" Width="1.5" PointX="3.75" PointY="110.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.TRANSCRIPT_CLEARANCE_STATUS" Width="1.5" PointX="19.25" PointY="115.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.TRANSCRIPT_REQUEST" Width="1.5" PointX="21.5" PointY="98.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.TRANSCRIPT_STATUS" Width="1.5" PointX="19.25" PointY="117.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.TRIBE" Width="1.5" PointX="3.75" PointY="113.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.USER" Width="1.5" PointX="17.25" PointY="79.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.USER_RIGHT" Width="1.5" PointX="25.5" PointY="80.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VISITATION_REGISTATION" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.JUPEB_ACADEMIC_REPORT" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.PROSPECTIVE_ACADEMIC_RECORD" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.STUDENT_HOSTEL_ALLOCATION" Width="1.5" PointX="6.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_ADMISSION" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_JUPEB_ACADEMIC_REPORT" Width="1.5" PointX="8.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_JUPEB_ADMISSION" Width="1.5" PointX="4.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_JUPEB_PROSPCTIVE_PAYMENT" Width="1.5" PointX="10.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_JUPEB_PROSPECTIVE" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_JUPEB_PROSPECTIVE_PAYBILL_PAYMENT" Width="1.5" PointX="6.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_PAYBILL_PROSPECTIVE_PAYMENT" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_POSTGRADUATE_ACADEMIC_REPORT" Width="1.5" PointX="0.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_POSTGRADUATE_ADMISSION" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_POSTGRADUATE_PROSPCTIVE_PAYMENT" Width="1.5" PointX="12.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_POSTGRADUATE_PROSPECTIVE_OLEVEL" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_POSTGRADUATE_PROSPECTIVE_PAYBILL_PAYMENT" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_PROSPECTIVE" Width="1.5" PointX="2.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_PROSPECTIVE_ACADEMIC_REPORT" Width="1.5" PointX="8.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_PROSPECTIVE_OLEVEL_RESULT" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_PROSPECTIVE_STUDENT_PAYMENT" Width="1.5" PointX="16.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_STUDENT_DEPARTMENT_HOSTEL_REPORT" Width="1.5" PointX="16.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_STUDENT_HOSTEL_ALLOCATION" Width="1.5" PointX="4.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_STUDENT_PAYMENT" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_STUDENT_RESULT" Width="1.5" PointX="18.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Liberty_Jedi_GodfreyModel.VW_STUDENT_RESULT_TEST" Width="1.5" PointX="10.75" PointY="18.75" IsExpanded="true" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_PROSPECTIVE_APPLIED_COURSE_ADMISSION_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_APPLIED_COURSE_ADMISSION_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_SECOND_APPLIED_COURSE_ADMISSION_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ADMISSIONS_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ADMISSIONS_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ADMISSIONS_PROSPECTIVE_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ADMISSIONS_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ADMISSIONS_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_ADMISSIONS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_REFERAL_SYSTEM_ADVERTMEANS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_APPOINTMENT_STAFF_ENTERED_BY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_APPOINTMENT_STAFF_TO_VISIT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_APPOINTMENT_ALLOCATION_STAFF" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_APPOINTMENT_ALLOCATION_STAFF_ENTRY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_AUDIT_TRAIL_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_BLOCKED_IP_AUDIT_TRAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_QUALIFICATIONS_CERTIFICATE_OBTAINED" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_COUNTRY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STATE_NATIONALITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_COURSE_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_REGISTRATION_COURSE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_TIME_TABLE_SCHEDULE_COURSE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_QUIZ_TIME_TABLE_SCHEDULE_COURSE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_COURSE_ALLOCATION_COURSE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_REGISTRATION_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_REGISTRATION_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_REGISTRATION_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_REGISTRATION_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_REGISTRATION_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_REGISTRATION_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_REGISTRATION_STUDENT_GRADE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_REGISTRATION_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_RESULT_COURSE_REGISTRATION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_TIME_TABLE_SCHEDULE_DAYS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_TIME_TABLE_SCHEDULE_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_TIME_TABLE_SCHEDULE_SESSION_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_TIME_TABLE_SCHEDULE_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_COURSE_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_UNIT_ALLOCATION_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_UNIT_ALLOCATION_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_UNIT_ALLOCATION_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_COURSE_UNIT_ALLOCATION_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_DEPARTMENT_FACULTY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ETRANZACT_FEE_SCHEDULE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_FEE_DETAIL_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_HOSTEL_ALLOCATION_CRITERIA_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROGRAMME_DEPARTMENT_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_APPLIED_COURSE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_SECOND_APPLIED_COURSE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_DEPARTMENT1" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_LEVEL_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_HOSTEL_ALLOCATION_CRITERIA_DISABILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_DISABILITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ETRANZACT_FEE_SCHEDULE_FEE_SCHEDULE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ETRANZACT_FEE_SCHEDULE_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ETRANZACT_FEE_SCHEDULE_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ETRANZACT_PAYMENT_ETRANZACT_FEE_SCHEDULE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_OFFLINE_PAYMENT_ETRANZACT_FEE_SCHEDULE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ETRANZACT_PAYMENT_ETRANZACT_PAYMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ETRANZACT_PAYMENT_PAYMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ETRANZACT_PAYMENT_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ETRANZACT_TERMINAL_ETRANZACT_TERMINAL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ETRANZACT_TERMINAL_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_EVENTS_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_FACULTY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_FEE_DETAIL_FEE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_FEE_DETAIL_FEE_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_FEE_DETAIL_GENDER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_FEE_DETAIL_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_FEE_DETAIL_PAYMENT_INSTALLMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_FEE_DETAIL_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_FEE_DETAIL_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_FEE_DETAIL_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PAYMENT_FEE_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_REMITA_PAYMENT_SETTINGS_REMITA_PAYMENT_SETTINGS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_HOSTEL_ALLOCATION_CRITERIA_GENDER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_HOSTEL_GENDER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_GENDER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_GENOTYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_HOSTEL_ALLOCATION_CRITERIA_HOSTEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ROOMS_HOSTEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_SERIES_SETTING_HOSTEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_HOSTEL_ALLOCATION_CRITERIA_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_HOSTEL_ALLOCATION_CRITERIA_ROOM_CORNER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_HOSTEL_ALLOCATION_CRITERIA_ROOMS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_HOSTEL_ALLOCATION_CRITERIA_SERIES_SETTING" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_ADMISSIONS_JUPEB_SUBJECT_COMBINATION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_ADMISSIONS_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_ADMISSIONS_PROSPECTIVE_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_ADMISSIONS_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_ADMISSIONS_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_SUBJECT_COMBINATION_JUPEB_FACULTY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_PROSPECTIVE_APPLIED_COURSE_JUPEB_SUBJECT_COMBINATION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_PROSPECTIVE_APPLIED_COURSE_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_PROSPECTIVE_APPLIED_COURSE_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_JUPEB_PROSPECTIVE_APPLIED_COURSE_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_LEVEL_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_LOCAL_GOVERNMENT_STATE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_LOCAL_GOVERNMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_NEWS_PERSON_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_NEWS_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_NEXT_OF_KIN_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_NEXT_OF_KIN_RELATIONSHIP" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_OFFLINE_PAYMENT_OFFLINE_PAYMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PAYBILL_PAYMENT_PAYMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PAYBILL_PAYMENT_LOG_PAYMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PAYMENT_PAYMENT_INSTALLMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PAYMENT_PAYMENT_MEDIUM" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PAYMENT_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PAYMENT_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PAYMENT_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PAYSTACK_PAYMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_REMITA_PAYMENT_PAYMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_TRANSCRIPT_REQUEST_PAYMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_PERSON_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_RELIGION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_ROLE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_STATE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_TITLE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PERSON_TRIBE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_APPLIED_COURSE_POSTGRADUATE_APPLIED_COURSE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_STUDENT_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_APPLIED_COURSE_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_JAMB_INFORMATION_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_OLEVEL_RESULT_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_SECOND_APPLIED_COURSE_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_STUDENT_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_STUDENT_PREVIOUS_EDUCATION_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_REFERAL_SYSTEM_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_REFEREE_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_RATING_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_USER_PERSON" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_ADMISSIONS_POSTGRADUATE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_ADMISSIONS_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_ADMISSIONS_PROSPECTIVE_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_ADMISSIONS_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_ADMISSIONS_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_APPLIED_COURSE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_APPLIED_COURSE_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_APPLIED_COURSE_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_POSTGRADUATE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_POSTGRADUATE_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_REGISTRATION_POSTGRADUATE_COURSE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_REGISTRATION_POSTGRADUATE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_REGISTRATION_POSTGRADUATE_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_REGISTRATION_POSTGRADUATE_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_REGISTRATION_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_REGISTRATION_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_REGISTRATION_STUDENT_GRADE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_UNIT_ALLOCATION_POSTGRADUATE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_UNIT_ALLOCATION_POSTGRADUATE_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_UNIT_ALLOCATION_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_COURSE_UNIT_ALLOCATION_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_DEPARTMENT_POSTGRADUATE_FACULTY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_STUDENT_LEVEL_POSTGRADUATE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_STUDENT_LEVEL_POSTGRADUATE_LEVEL" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_STUDENT_LEVEL_POSTGRADUATE_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_STUDENT_STUDENT_CATEGORY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_STUDENT_STUDENT_STATUS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_STUDENT_LEVEL_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_POSTGRADUATE_STUDENT_LEVEL_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROGRAMME_DEPARTMENT_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_APPLIED_COURSE_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_SECOND_APPLIED_COURSE_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_QUIZ_TIME_TABLE_SCHEDULE_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_COURSE_ALLOCATION_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_LEVEL_PROGRAMME" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_APPLIED_COURSE_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_OLEVEL_RESULT_PROSPECTIVE_OLEVEL_EXAM_ATTEMPT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_OLEVEL_RESULT_PROSPECTIVE_OLEVEL_EXAM_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_OLEVEL_RESULT_DETAIL_PROSPECTIVE_OLEVEL_RESULT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_OLEVEL_RESULT_DETAIL_PROSPECTIVE_OLEVEL_SUBJECT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_OLEVEL_RESULT_DETAIL_PROSPECTIVE_OLEVEL_SUBJECT_GRADE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_STUDENT_PROSPECTIVE_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_SECOND_APPLIED_COURSE_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PROSPECTIVE_STUDENT_STATUS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_REFEREE_PROSPECTIVE_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_PUBLICATIONS_PUBLICATION_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_QUIZ_TIME_TABLE_SCHEDULE_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_USER_RIGHT_RIGHT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_USER_ROLE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ROOMS_ROOM_CAPACITY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ROOM_CORNER_ROOMS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ROOMS_SERIES" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_ROOMS_SERIES_SETTING" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_SESSION_SEMESTER_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_RATING_SEMESTER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_SERIES_SETTING_SERIES" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_SESSION_TERM_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_RATING_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_LEVEL_SESSION" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_PUBLICATIONS_STAFF" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_QUALIFICATIONS_STAFF" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_STAFF_TYPE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_WORKING_EXPERIENCE_STAFF" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_COURSE_ALLOCATION_USER" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STAFF_RATING_STAFF" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_TRANSCRIPT_REQUEST_STATE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_HOSTEL_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_LEVEL_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_STUDENT_CATEGORY" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_STUDENT_STATUS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_TRANSCRIPT_REQUEST_STUDENT" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_RESULT_STUDENT_GRADE" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_STUDENT_RESULT_USER1" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_TRANSCRIPT_REQUEST_TRANSCRIPT_CLEARANCE_STATUS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_TRANSCRIPT_REQUEST_TRANSCRIPT_STATUS" ManuallyRouted="false" />
+        <AssociationConnector Association="Liberty_Jedi_GodfreyModel.FK_USER_RIGHT_USER" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

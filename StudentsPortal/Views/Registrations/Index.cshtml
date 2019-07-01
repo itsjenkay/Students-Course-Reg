@@ -1,0 +1,32 @@
+﻿@model StudentsPortal.Models.StudentsDetails.USER
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="jumbotron" style="margin:50px;"> 
+    <h2 style=" text-align:center;margin:0; padding-bottom:10px;">Login</h2>
+
+    <div class="container" style="border:2px solid #dedede; width:50%;border-radius:10px;" >
+        <div style="margin:0 auto; width:50%;">
+            @using (Html.BeginForm())
+            {
+                <div class="form-group">
+                    @Html.LabelFor(c => c.User_Name)
+                    @Html.TextBoxFor(c => c.User_Name, new { @class = "form-control", @placeholder = "Enter your usernamme" })
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(c => c.Password)
+                    @Html.PasswordFor(c => c.Password, new { @class = "form-control", @placeholder = "Enter your password" })
+                </div>
+                <div class="form-group" >
+                    <button class="btn btn-success btn-lg" style="width:100%" >
+                        Login
+                    </button>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>

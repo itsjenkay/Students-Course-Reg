@@ -1,0 +1,30 @@
+﻿@model StudentsPortal.Models.StudentsDetails.COURSE_REGISTRATION
+@{
+    ViewBag.Title = "DashBoard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Course Registration</h2>
+
+@using (Html.BeginForm())
+{
+    <div class="form-group">
+        @Html.LabelFor(c=>c.SESSION)
+        @*@Html.DropDownListFor(c => c.Session_Id, new SelectList(), )*@
+    
+    </div>
+    
+    <div class=" form-group">
+        @Html.LabelFor(c=>c.SEMESTER)
+        @*@Html.DropDownListFor()*@
+    </div>
+    
+    <div class="form-group">
+       500 Level
+    </div>
+    <div>
+    <button class="btn btn-success" type="submit">
+        Submit
+    </button>
+    </div>
+}

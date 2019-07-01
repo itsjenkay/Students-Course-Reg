@@ -1,0 +1,2108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Liberty_Jedi_GodfreyModelStoreContainer" CdmEntityContainer="Liberty_Jedi_GodfreyEntities">
+    <EntitySetMapping Name="ADMISSION_TYPE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.ADMISSION_TYPE">
+        <MappingFragment StoreEntitySet="ADMISSION_TYPE">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ADMISSIONS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.ADMISSION">
+        <MappingFragment StoreEntitySet="ADMISSIONS">
+          <ScalarProperty Name="Admissions_Id" ColumnName="Admissions_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Prospective_Student_Id" ColumnName="Prospective_Student_Id" />
+          <ScalarProperty Name="Date_Uploaded" ColumnName="Date_Uploaded" />
+          <ScalarProperty Name="Uploaded_By_User_Id" ColumnName="Uploaded_By_User_Id" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="AdmissionReason" ColumnName="AdmissionReason" />
+          <ScalarProperty Name="AdmissionMode" ColumnName="AdmissionMode" />
+          <ScalarProperty Name="isExpired" ColumnName="isExpired" />
+          <ScalarProperty Name="Expiration" ColumnName="Expiration" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ADVERTMEANS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.ADVERTMEAN">
+        <MappingFragment StoreEntitySet="ADVERTMEANS">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Means" ColumnName="Means" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="APPOINTMENTs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.APPOINTMENT">
+        <MappingFragment StoreEntitySet="APPOINTMENT">
+          <ScalarProperty Name="Appointment_Id" ColumnName="Appointment_Id" />
+          <ScalarProperty Name="Appointment_Entered_By_User" ColumnName="Appointment_Entered_By_User" />
+          <ScalarProperty Name="Appointment_Staff_To_Visit" ColumnName="Appointment_Staff_To_Visit" />
+          <ScalarProperty Name="Appointment_Description" ColumnName="Appointment_Description" />
+          <ScalarProperty Name="Date_Entered" ColumnName="Date_Entered" />
+          <ScalarProperty Name="Appointment_Date" ColumnName="Appointment_Date" />
+          <ScalarProperty Name="Visitor" ColumnName="Visitor" />
+          <ScalarProperty Name="activated" ColumnName="activated" />
+          <ScalarProperty Name="Time_Start" ColumnName="Time_Start" />
+          <ScalarProperty Name="Time_Stop" ColumnName="Time_Stop" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="APPOINTMENT_ALLOCATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.APPOINTMENT_ALLOCATION">
+        <MappingFragment StoreEntitySet="APPOINTMENT_ALLOCATION">
+          <ScalarProperty Name="Appointment_Allocation_Id" ColumnName="Appointment_Allocation_Id" />
+          <ScalarProperty Name="Appointment_Entered_By_User" ColumnName="Appointment_Entered_By_User" />
+          <ScalarProperty Name="Appointment_For_Staff" ColumnName="Appointment_For_Staff" />
+          <ScalarProperty Name="activated" ColumnName="activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AUDIT_ACTION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.AUDIT_ACTION">
+        <MappingFragment StoreEntitySet="AUDIT_ACTION">
+          <ScalarProperty Name="Audit_Action_Id" ColumnName="Audit_Action_Id" />
+          <ScalarProperty Name="Audit_Action_Name" ColumnName="Audit_Action_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AUDIT_TRAIL">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.AUDIT_TRAIL">
+        <MappingFragment StoreEntitySet="AUDIT_TRAIL">
+          <ScalarProperty Name="Audit_Trail_Id" ColumnName="Audit_Trail_Id" />
+          <ScalarProperty Name="IP_Address" ColumnName="IP_Address" />
+          <ScalarProperty Name="Date_Visited" ColumnName="Date_Visited" />
+          <ScalarProperty Name="Audit_Action_Description" ColumnName="Audit_Action_Description" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="User_Hostname" ColumnName="User_Hostname" />
+          <ScalarProperty Name="MVC_Controller_Name" ColumnName="MVC_Controller_Name" />
+          <ScalarProperty Name="MVC_Action_Name" ColumnName="MVC_Action_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BLOCKED_IP">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.BLOCKED_IP">
+        <MappingFragment StoreEntitySet="BLOCKED_IP">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Audit_Trail_Id" ColumnName="Audit_Trail_Id" />
+          <ScalarProperty Name="Blocked" ColumnName="Blocked" />
+          <ScalarProperty Name="Date_Entered" ColumnName="Date_Entered" />
+          <ScalarProperty Name="Blocking_Reason" ColumnName="Blocking_Reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BLOOD_GROUP">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.BLOOD_GROUP">
+        <MappingFragment StoreEntitySet="BLOOD_GROUP">
+          <ScalarProperty Name="Blood_Group_Id" ColumnName="Blood_Group_Id" />
+          <ScalarProperty Name="Blood_Group_Name" ColumnName="Blood_Group_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CERTIFICATE_OBTAINED">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.CERTIFICATE_OBTAINED">
+        <MappingFragment StoreEntitySet="CERTIFICATE_OBTAINED">
+          <ScalarProperty Name="Cert_Id" ColumnName="Cert_Id" />
+          <ScalarProperty Name="Cert_Name" ColumnName="Cert_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COUNTRies">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.COUNTRY">
+        <MappingFragment StoreEntitySet="COUNTRY">
+          <ScalarProperty Name="Country_Id" ColumnName="Country_Id" />
+          <ScalarProperty Name="Country_Name" ColumnName="Country_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COURSEs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.COURSE">
+        <MappingFragment StoreEntitySet="COURSE">
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+          <ScalarProperty Name="Course_Type_Id" ColumnName="Course_Type_Id" />
+          <ScalarProperty Name="Course_Code" ColumnName="Course_Code" />
+          <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Course_Unit" ColumnName="Course_Unit" />
+          <ScalarProperty Name="Semester_Id" ColumnName="Semester_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COURSE_REGISTRATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.COURSE_REGISTRATION">
+        <MappingFragment StoreEntitySet="COURSE_REGISTRATION">
+          <ScalarProperty Name="Course_Registration_Id" ColumnName="Course_Registration_Id" />
+          <ScalarProperty Name="Student_Id" ColumnName="Student_Id" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Semester_Id" ColumnName="Semester_Id" />
+          <ScalarProperty Name="Date_Registered" ColumnName="Date_Registered" />
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+          <ScalarProperty Name="Test_Score" ColumnName="Test_Score" />
+          <ScalarProperty Name="Exam_Score" ColumnName="Exam_Score" />
+          <ScalarProperty Name="Total_Score" ColumnName="Total_Score" />
+          <ScalarProperty Name="Uploader_Id" ColumnName="Uploader_Id" />
+          <ScalarProperty Name="Date_Uploaded" ColumnName="Date_Uploaded" />
+          <ScalarProperty Name="Student_Grade_Id" ColumnName="Student_Grade_Id" />
+          <ScalarProperty Name="Is_Absent" ColumnName="Is_Absent" />
+          <ScalarProperty Name="Absent_Reason" ColumnName="Absent_Reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COURSE_TIME_TABLE_SCHEDULE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.COURSE_TIME_TABLE_SCHEDULE">
+        <MappingFragment StoreEntitySet="COURSE_TIME_TABLE_SCHEDULE">
+          <ScalarProperty Name="Course_Time_Table_Schedule_Id" ColumnName="Course_Time_Table_Schedule_Id" />
+          <ScalarProperty Name="Staff_User_Id" ColumnName="Staff_User_Id" />
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+          <ScalarProperty Name="Day_Id" ColumnName="Day_Id" />
+          <ScalarProperty Name="Time_Start" ColumnName="Time_Start" />
+          <ScalarProperty Name="Time_Stop" ColumnName="Time_Stop" />
+          <ScalarProperty Name="Session_Semester_Id" ColumnName="Session_Semester_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COURSE_TYPE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.COURSE_TYPE">
+        <MappingFragment StoreEntitySet="COURSE_TYPE">
+          <ScalarProperty Name="Course_Type_Id" ColumnName="Course_Type_Id" />
+          <ScalarProperty Name="Course_Type_Name" ColumnName="Course_Type_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="COURSE_UNIT_ALLOCATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.COURSE_UNIT_ALLOCATION">
+        <MappingFragment StoreEntitySet="COURSE_UNIT_ALLOCATION">
+          <ScalarProperty Name="Course_Unit_Allocation_Id" ColumnName="Course_Unit_Allocation_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Semester_Id" ColumnName="Semester_Id" />
+          <ScalarProperty Name="Minimum_Unit" ColumnName="Minimum_Unit" />
+          <ScalarProperty Name="Maximum_Unit" ColumnName="Maximum_Unit" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Compuslory_Course_Unit" ColumnName="Compuslory_Course_Unit" />
+          <ScalarProperty Name="Optional_Course_Unit" ColumnName="Optional_Course_Unit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DAYS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.DAY">
+        <MappingFragment StoreEntitySet="DAYS">
+          <ScalarProperty Name="Day_Id" ColumnName="Day_Id" />
+          <ScalarProperty Name="Day_Name" ColumnName="Day_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DEPARTMENTs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.DEPARTMENT">
+        <MappingFragment StoreEntitySet="DEPARTMENT">
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+          <ScalarProperty Name="Faculty_Id" ColumnName="Faculty_Id" />
+          <ScalarProperty Name="Department_Code" ColumnName="Department_Code" />
+          <ScalarProperty Name="Course_Duration" ColumnName="Course_Duration" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DISABILITies">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.DISABILITY">
+        <MappingFragment StoreEntitySet="DISABILITY">
+          <ScalarProperty Name="Disability_Id" ColumnName="Disability_Id" />
+          <ScalarProperty Name="Disability_Name" ColumnName="Disability_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ETRANZACT_FEE_SCHEDULE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.ETRANZACT_FEE_SCHEDULE">
+        <MappingFragment StoreEntitySet="ETRANZACT_FEE_SCHEDULE">
+          <ScalarProperty Name="Etranzact_Fee_Schedule_Id" ColumnName="Etranzact_Fee_Schedule_Id" />
+          <ScalarProperty Name="Etranzact_Fee_Schedule_Name" ColumnName="Etranzact_Fee_Schedule_Name" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ETRANZACT_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.ETRANZACT_PAYMENT">
+        <MappingFragment StoreEntitySet="ETRANZACT_PAYMENT">
+          <ScalarProperty Name="Payment_Id" ColumnName="Payment_Id" />
+          <ScalarProperty Name="Etranzact_Fee_Schedule_Id" ColumnName="Etranzact_Fee_Schedule_Id" />
+          <ScalarProperty Name="Etranzact_Terminal_Id" ColumnName="Etranzact_Terminal_Id" />
+          <ScalarProperty Name="Receipt_No" ColumnName="Receipt_No" />
+          <ScalarProperty Name="Payment_Code" ColumnName="Payment_Code" />
+          <ScalarProperty Name="Merchant_Code" ColumnName="Merchant_Code" />
+          <ScalarProperty Name="Transaction_Amount" ColumnName="Transaction_Amount" />
+          <ScalarProperty Name="Transaction_Description" ColumnName="Transaction_Description" />
+          <ScalarProperty Name="Transaction_Date" ColumnName="Transaction_Date" />
+          <ScalarProperty Name="Confirmation_No" ColumnName="Confirmation_No" />
+          <ScalarProperty Name="Bank_Code" ColumnName="Bank_Code" />
+          <ScalarProperty Name="Branch_Code" ColumnName="Branch_Code" />
+          <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
+          <ScalarProperty Name="Customer_Name" ColumnName="Customer_Name" />
+          <ScalarProperty Name="Customer_Address" ColumnName="Customer_Address" />
+          <ScalarProperty Name="Used" ColumnName="Used" />
+          <ScalarProperty Name="Used_By_Person_Id" ColumnName="Used_By_Person_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ETRANZACT_TERMINAL">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.ETRANZACT_TERMINAL">
+        <MappingFragment StoreEntitySet="ETRANZACT_TERMINAL">
+          <ScalarProperty Name="Etranzact_Terminal_Id" ColumnName="Etranzact_Terminal_Id" />
+          <ScalarProperty Name="Etranzact_Terminal_Code" ColumnName="Etranzact_Terminal_Code" />
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EVENTS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.EVENT">
+        <MappingFragment StoreEntitySet="EVENTS">
+          <ScalarProperty Name="Event_Id" ColumnName="Event_Id" />
+          <ScalarProperty Name="Event_Title" ColumnName="Event_Title" />
+          <ScalarProperty Name="Event_Description" ColumnName="Event_Description" />
+          <ScalarProperty Name="Event_Start_Date" ColumnName="Event_Start_Date" />
+          <ScalarProperty Name="Event_End_Date" ColumnName="Event_End_Date" />
+          <ScalarProperty Name="Entered_By_User" ColumnName="Entered_By_User" />
+          <ScalarProperty Name="activated" ColumnName="activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FACULTies">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.FACULTY">
+        <MappingFragment StoreEntitySet="FACULTY">
+          <ScalarProperty Name="Faculty_Id" ColumnName="Faculty_Id" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FEEs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.FEE">
+        <MappingFragment StoreEntitySet="FEE">
+          <ScalarProperty Name="Fee_Id" ColumnName="Fee_Id" />
+          <ScalarProperty Name="Fee_Name" ColumnName="Fee_Name" />
+          <ScalarProperty Name="Fee_Description" ColumnName="Fee_Description" />
+          <ScalarProperty Name="Fee_Amount" ColumnName="Fee_Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FEE_DETAIL">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.FEE_DETAIL">
+        <MappingFragment StoreEntitySet="FEE_DETAIL">
+          <ScalarProperty Name="Fee_Detail_Id" ColumnName="Fee_Detail_Id" />
+          <ScalarProperty Name="Fee_Id" ColumnName="Fee_Id" />
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+          <ScalarProperty Name="Payment_Installment_Id" ColumnName="Payment_Installment_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Gender_Id" ColumnName="Gender_Id" />
+          <ScalarProperty Name="Semester_Id" ColumnName="Semester_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="FEE_SCHEDULE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.FEE_SCHEDULE">
+        <MappingFragment StoreEntitySet="FEE_SCHEDULE">
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+          <ScalarProperty Name="Fee_Schedule_Name" ColumnName="Fee_Schedule_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GENDERs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.GENDER">
+        <MappingFragment StoreEntitySet="GENDER">
+          <ScalarProperty Name="Gender_Id" ColumnName="Gender_Id" />
+          <ScalarProperty Name="Gender_Name" ColumnName="Gender_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GENOTYPEs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.GENOTYPE">
+        <MappingFragment StoreEntitySet="GENOTYPE">
+          <ScalarProperty Name="Genotype_Id" ColumnName="Genotype_Id" />
+          <ScalarProperty Name="Genotype_Name" ColumnName="Genotype_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOSTELs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.HOSTEL">
+        <MappingFragment StoreEntitySet="HOSTEL">
+          <ScalarProperty Name="Hostel_Id" ColumnName="Hostel_Id" />
+          <ScalarProperty Name="Hostel_Name" ColumnName="Hostel_Name" />
+          <ScalarProperty Name="Hostel_Gender_Id" ColumnName="Hostel_Gender_Id" />
+          <ScalarProperty Name="Number_of_Series" ColumnName="Number_of_Series" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOSTEL_ALLOCATION_CRITERIA">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.HOSTEL_ALLOCATION_CRITERIA">
+        <MappingFragment StoreEntitySet="HOSTEL_ALLOCATION_CRITERIA">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Hostel_Id" ColumnName="Hostel_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Disability" ColumnName="Disability" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Series_Setting_Id" ColumnName="Series_Setting_Id" />
+          <ScalarProperty Name="Room_Id" ColumnName="Room_Id" />
+          <ScalarProperty Name="Room_Corner_Id" ColumnName="Room_Corner_Id" />
+          <ScalarProperty Name="Hostel_Gender" ColumnName="Hostel_Gender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JUPEB_ADMISSIONS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.JUPEB_ADMISSIONS">
+        <MappingFragment StoreEntitySet="JUPEB_ADMISSIONS">
+          <ScalarProperty Name="Jupeb_Admission_Id" ColumnName="Jupeb_Admission_Id" />
+          <ScalarProperty Name="Subject_Combination_Id" ColumnName="Subject_Combination_Id" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Prospective_Student_Id" ColumnName="Prospective_Student_Id" />
+          <ScalarProperty Name="Date_Uploaded" ColumnName="Date_Uploaded" />
+          <ScalarProperty Name="Uploaded_By_User_Id" ColumnName="Uploaded_By_User_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JUPEB_FACULTY">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.JUPEB_FACULTY">
+        <MappingFragment StoreEntitySet="JUPEB_FACULTY">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="status" ColumnName="status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JUPEB_PROSPECTIVE_APPLIED_COURSE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.JUPEB_PROSPECTIVE_APPLIED_COURSE">
+        <MappingFragment StoreEntitySet="JUPEB_PROSPECTIVE_APPLIED_COURSE">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Jupeb_Subject_Combination_Id" ColumnName="Jupeb_Subject_Combination_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Admission_Type_Id" ColumnName="Admission_Type_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JUPEB_SUBJECT_COMBINATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.JUPEB_SUBJECT_COMBINATION">
+        <MappingFragment StoreEntitySet="JUPEB_SUBJECT_COMBINATION">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="jupeb_faculty_id" ColumnName="jupeb_faculty_id" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="short_name" ColumnName="short_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LEVELs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.LEVEL">
+        <MappingFragment StoreEntitySet="LEVEL">
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Level_Name" ColumnName="Level_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LOCAL_GOVERNMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.LOCAL_GOVERNMENT">
+        <MappingFragment StoreEntitySet="LOCAL_GOVERNMENT">
+          <ScalarProperty Name="Local_Government_Id" ColumnName="Local_Government_Id" />
+          <ScalarProperty Name="Local_Government_Name" ColumnName="Local_Government_Name" />
+          <ScalarProperty Name="State_Id" ColumnName="State_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MAILS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.MAIL">
+        <MappingFragment StoreEntitySet="MAILS">
+          <ScalarProperty Name="Message_Id" ColumnName="Message_Id" />
+          <ScalarProperty Name="Sent_To" ColumnName="Sent_To" />
+          <ScalarProperty Name="Sent_From" ColumnName="Sent_From" />
+          <ScalarProperty Name="Message_Body" ColumnName="Message_Body" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NEWS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.NEWS">
+        <MappingFragment StoreEntitySet="NEWS">
+          <ScalarProperty Name="News_Id" ColumnName="News_Id" />
+          <ScalarProperty Name="News_Description" ColumnName="News_Description" />
+          <ScalarProperty Name="News_File_Url" ColumnName="News_File_Url" />
+          <ScalarProperty Name="View_By_Person_Type" ColumnName="View_By_Person_Type" />
+          <ScalarProperty Name="Entered_By_User" ColumnName="Entered_By_User" />
+          <ScalarProperty Name="Date_Entered" ColumnName="Date_Entered" />
+          <ScalarProperty Name="activated" ColumnName="activated" />
+          <ScalarProperty Name="News_Title" ColumnName="News_Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NEXT_OF_KIN">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.NEXT_OF_KIN">
+        <MappingFragment StoreEntitySet="NEXT_OF_KIN">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Fullname" ColumnName="Fullname" />
+          <ScalarProperty Name="Mobile_Phone" ColumnName="Mobile_Phone" />
+          <ScalarProperty Name="Relationship_Id" ColumnName="Relationship_Id" />
+          <ScalarProperty Name="Contact_Address" ColumnName="Contact_Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OFFLINE_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.OFFLINE_PAYMENT">
+        <MappingFragment StoreEntitySet="OFFLINE_PAYMENT">
+          <ScalarProperty Name="Payment_Id" ColumnName="Payment_Id" />
+          <ScalarProperty Name="Etranzact_Fee_Schedule_Id" ColumnName="Etranzact_Fee_Schedule_Id" />
+          <ScalarProperty Name="Transaction_Amount" ColumnName="Transaction_Amount" />
+          <ScalarProperty Name="Transaction_Description" ColumnName="Transaction_Description" />
+          <ScalarProperty Name="Transaction_Date" ColumnName="Transaction_Date" />
+          <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
+          <ScalarProperty Name="Customer_Name" ColumnName="Customer_Name" />
+          <ScalarProperty Name="Customer_Address" ColumnName="Customer_Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAYBILL_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PAYBILL_PAYMENT">
+        <MappingFragment StoreEntitySet="PAYBILL_PAYMENT">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="payment_id" ColumnName="payment_id" />
+          <ScalarProperty Name="payment_reference" ColumnName="payment_reference" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="amount_in_kobo" ColumnName="amount_in_kobo" />
+          <ScalarProperty Name="amount_in_naira" ColumnName="amount_in_naira" />
+          <ScalarProperty Name="invoice_amount" ColumnName="invoice_amount" />
+          <ScalarProperty Name="account_number" ColumnName="account_number" />
+          <ScalarProperty Name="sub_account_code" ColumnName="sub_account_code" />
+          <ScalarProperty Name="customer_email" ColumnName="customer_email" />
+          <ScalarProperty Name="gate_way_reference" ColumnName="gate_way_reference" />
+          <ScalarProperty Name="gate_way_otp_verification_reference" ColumnName="gate_way_otp_verification_reference" />
+          <ScalarProperty Name="organization_transaction_reference" ColumnName="organization_transaction_reference" />
+          <ScalarProperty Name="pay_bill_transaction_id" ColumnName="pay_bill_transaction_id" />
+          <ScalarProperty Name="card_type" ColumnName="card_type" />
+          <ScalarProperty Name="charge_bearer" ColumnName="charge_bearer" />
+          <ScalarProperty Name="organization_charge_in_kobo" ColumnName="organization_charge_in_kobo" />
+          <ScalarProperty Name="date_created" ColumnName="date_created" />
+          <ScalarProperty Name="is_nigerian_card" ColumnName="is_nigerian_card" />
+          <ScalarProperty Name="ip_address" ColumnName="ip_address" />
+          <ScalarProperty Name="auth_method" ColumnName="auth_method" />
+          <ScalarProperty Name="payment_page_type" ColumnName="payment_page_type" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="transaction_date" ColumnName="transaction_date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAYBILL_PAYMENT_LOG">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PAYBILL_PAYMENT_LOG">
+        <MappingFragment StoreEntitySet="PAYBILL_PAYMENT_LOG">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="payment_reference" ColumnName="payment_reference" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="amount_in_kobo" ColumnName="amount_in_kobo" />
+          <ScalarProperty Name="amount_in_naira" ColumnName="amount_in_naira" />
+          <ScalarProperty Name="invoice_amount" ColumnName="invoice_amount" />
+          <ScalarProperty Name="account_number" ColumnName="account_number" />
+          <ScalarProperty Name="sub_account_code" ColumnName="sub_account_code" />
+          <ScalarProperty Name="customer_email" ColumnName="customer_email" />
+          <ScalarProperty Name="gate_way_reference" ColumnName="gate_way_reference" />
+          <ScalarProperty Name="gate_way_otp_verification_reference" ColumnName="gate_way_otp_verification_reference" />
+          <ScalarProperty Name="organization_transaction_reference" ColumnName="organization_transaction_reference" />
+          <ScalarProperty Name="pay_bill_transaction_id" ColumnName="pay_bill_transaction_id" />
+          <ScalarProperty Name="card_type" ColumnName="card_type" />
+          <ScalarProperty Name="charge_bearer" ColumnName="charge_bearer" />
+          <ScalarProperty Name="organization_charge_in_kobo" ColumnName="organization_charge_in_kobo" />
+          <ScalarProperty Name="date_created" ColumnName="date_created" />
+          <ScalarProperty Name="is_nigerian_card" ColumnName="is_nigerian_card" />
+          <ScalarProperty Name="ip_address" ColumnName="ip_address" />
+          <ScalarProperty Name="auth_method" ColumnName="auth_method" />
+          <ScalarProperty Name="payment_page_type" ColumnName="payment_page_type" />
+          <ScalarProperty Name="city" ColumnName="city" />
+          <ScalarProperty Name="region" ColumnName="region" />
+          <ScalarProperty Name="country" ColumnName="country" />
+          <ScalarProperty Name="latitude" ColumnName="latitude" />
+          <ScalarProperty Name="longitude" ColumnName="longitude" />
+          <ScalarProperty Name="transaction_date" ColumnName="transaction_date" />
+          <ScalarProperty Name="payment_id" ColumnName="payment_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAYMENTs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PAYMENT">
+        <MappingFragment StoreEntitySet="PAYMENT">
+          <ScalarProperty Name="Payment_Id" ColumnName="Payment_Id" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Payment_Installment_Id" ColumnName="Payment_Installment_Id" />
+          <ScalarProperty Name="Payment_Medium_Id" ColumnName="Payment_Medium_Id" />
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+          <ScalarProperty Name="Invoice_Number" ColumnName="Invoice_Number" />
+          <ScalarProperty Name="Transaction_Date" ColumnName="Transaction_Date" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Semester_Id" ColumnName="Semester_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAYMENT_INSTALLMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PAYMENT_INSTALLMENT">
+        <MappingFragment StoreEntitySet="PAYMENT_INSTALLMENT">
+          <ScalarProperty Name="Payment_Installment_Id" ColumnName="Payment_Installment_Id" />
+          <ScalarProperty Name="Payment_Installment_Name" ColumnName="Payment_Installment_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAYMENT_MEDIUM">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PAYMENT_MEDIUM">
+        <MappingFragment StoreEntitySet="PAYMENT_MEDIUM">
+          <ScalarProperty Name="Payment_Medium_Id" ColumnName="Payment_Medium_Id" />
+          <ScalarProperty Name="Payment_Medium_Name" ColumnName="Payment_Medium_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PAYSTACKs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PAYSTACK">
+        <MappingFragment StoreEntitySet="PAYSTACK">
+          <ScalarProperty Name="PayStack_id" ColumnName="PayStack_id" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+          <ScalarProperty Name="IP" ColumnName="IP" />
+          <ScalarProperty Name="Reference" ColumnName="Reference" />
+          <ScalarProperty Name="RequestDate" ColumnName="RequestDate" />
+          <ScalarProperty Name="card" ColumnName="card" />
+          <ScalarProperty Name="lastFour" ColumnName="lastFour" />
+          <ScalarProperty Name="bank" ColumnName="bank" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="paymentGateway" ColumnName="paymentGateway" />
+          <ScalarProperty Name="payment_id" ColumnName="payment_id" />
+          <ScalarProperty Name="responseData" ColumnName="responseData" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="People">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PERSON">
+        <MappingFragment StoreEntitySet="PERSON">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Person_Type_Id" ColumnName="Person_Type_Id" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Initial" ColumnName="Initial" />
+          <ScalarProperty Name="Title_Id" ColumnName="Title_Id" />
+          <ScalarProperty Name="Passport_Url" ColumnName="Passport_Url" />
+          <ScalarProperty Name="Signature_Image_Url" ColumnName="Signature_Image_Url" />
+          <ScalarProperty Name="Gender_Id" ColumnName="Gender_Id" />
+          <ScalarProperty Name="Contact_Address" ColumnName="Contact_Address" />
+          <ScalarProperty Name="Email_Address" ColumnName="Email_Address" />
+          <ScalarProperty Name="Mobile_Phone" ColumnName="Mobile_Phone" />
+          <ScalarProperty Name="Date_Of_Birth" ColumnName="Date_Of_Birth" />
+          <ScalarProperty Name="State_Id" ColumnName="State_Id" />
+          <ScalarProperty Name="Local_Government_Id" ColumnName="Local_Government_Id" />
+          <ScalarProperty Name="Home_Town" ColumnName="Home_Town" />
+          <ScalarProperty Name="Home_Address" ColumnName="Home_Address" />
+          <ScalarProperty Name="Country_Id" ColumnName="Country_Id" />
+          <ScalarProperty Name="Religion_Id" ColumnName="Religion_Id" />
+          <ScalarProperty Name="Date_Entered" ColumnName="Date_Entered" />
+          <ScalarProperty Name="Role_Id" ColumnName="Role_Id" />
+          <ScalarProperty Name="Genotype_Id" ColumnName="Genotype_Id" />
+          <ScalarProperty Name="Disability_Id" ColumnName="Disability_Id" />
+          <ScalarProperty Name="Tribe_Id" ColumnName="Tribe_Id" />
+          <ScalarProperty Name="ParentName" ColumnName="ParentName" />
+          <ScalarProperty Name="ParentNumber" ColumnName="ParentNumber" />
+          <ScalarProperty Name="Family_Kindred" ColumnName="Family_Kindred" />
+          <ScalarProperty Name="Village" ColumnName="Village" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PERSON_TYPE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PERSON_TYPE">
+        <MappingFragment StoreEntitySet="PERSON_TYPE">
+          <ScalarProperty Name="Person_Type_Id" ColumnName="Person_Type_Id" />
+          <ScalarProperty Name="Person_Type_Name" ColumnName="Person_Type_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTGRADUATE_ADMISSIONS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.POSTGRADUATE_ADMISSIONS">
+        <MappingFragment StoreEntitySet="POSTGRADUATE_ADMISSIONS">
+          <ScalarProperty Name="Admissions_Id" ColumnName="Admissions_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Prospective_Student_Id" ColumnName="Prospective_Student_Id" />
+          <ScalarProperty Name="Date_Uploaded" ColumnName="Date_Uploaded" />
+          <ScalarProperty Name="Uploaded_By_User_Id" ColumnName="Uploaded_By_User_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTGRADUATE_APPLIED_COURSE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.POSTGRADUATE_APPLIED_COURSE">
+        <MappingFragment StoreEntitySet="POSTGRADUATE_APPLIED_COURSE">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="PostGraduate_Department_Id" ColumnName="PostGraduate_Department_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTGRADUATE_COURSE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.POSTGRADUATE_COURSE">
+        <MappingFragment StoreEntitySet="POSTGRADUATE_COURSE">
+          <ScalarProperty Name="course_id" ColumnName="course_id" />
+          <ScalarProperty Name="course_type_id" ColumnName="course_type_id" />
+          <ScalarProperty Name="course_code" ColumnName="course_code" />
+          <ScalarProperty Name="course_name" ColumnName="course_name" />
+          <ScalarProperty Name="level_id" ColumnName="level_id" />
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+          <ScalarProperty Name="course_unit" ColumnName="course_unit" />
+          <ScalarProperty Name="semester_id" ColumnName="semester_id" />
+          <ScalarProperty Name="session_id" ColumnName="session_id" />
+          <ScalarProperty Name="activated" ColumnName="activated" />
+          <ScalarProperty Name="is_selected" ColumnName="is_selected" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTGRADUATE_COURSE_REGISTRATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.POSTGRADUATE_COURSE_REGISTRATION">
+        <MappingFragment StoreEntitySet="POSTGRADUATE_COURSE_REGISTRATION">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="student_id" ColumnName="student_id" />
+          <ScalarProperty Name="level_id" ColumnName="level_id" />
+          <ScalarProperty Name="programme_id" ColumnName="programme_id" />
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+          <ScalarProperty Name="session_id" ColumnName="session_id" />
+          <ScalarProperty Name="semester_id" ColumnName="semester_id" />
+          <ScalarProperty Name="date_registered" ColumnName="date_registered" />
+          <ScalarProperty Name="course_id" ColumnName="course_id" />
+          <ScalarProperty Name="test_score" ColumnName="test_score" />
+          <ScalarProperty Name="exam_score" ColumnName="exam_score" />
+          <ScalarProperty Name="total_score" ColumnName="total_score" />
+          <ScalarProperty Name="student_grade_id" ColumnName="student_grade_id" />
+          <ScalarProperty Name="is_absent" ColumnName="is_absent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTGRADUATE_COURSE_UNIT_ALLOCATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.POSTGRADUATE_COURSE_UNIT_ALLOCATION">
+        <MappingFragment StoreEntitySet="POSTGRADUATE_COURSE_UNIT_ALLOCATION">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+          <ScalarProperty Name="level_id" ColumnName="level_id" />
+          <ScalarProperty Name="semester_id" ColumnName="semester_id" />
+          <ScalarProperty Name="maximum_unit" ColumnName="maximum_unit" />
+          <ScalarProperty Name="minimum_unit" ColumnName="minimum_unit" />
+          <ScalarProperty Name="session_id" ColumnName="session_id" />
+          <ScalarProperty Name="compulsary_course_unit" ColumnName="compulsary_course_unit" />
+          <ScalarProperty Name="optional_course_unit" ColumnName="optional_course_unit" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTGRADUATE_DEPARTMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.POSTGRADUATE_DEPARTMENT">
+        <MappingFragment StoreEntitySet="POSTGRADUATE_DEPARTMENT">
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+          <ScalarProperty Name="PostGraduate_Faculty_Id" ColumnName="PostGraduate_Faculty_Id" />
+          <ScalarProperty Name="Department_Code" ColumnName="Department_Code" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTGRADUATE_FACULTY">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.POSTGRADUATE_FACULTY">
+        <MappingFragment StoreEntitySet="POSTGRADUATE_FACULTY">
+          <ScalarProperty Name="Faculty_Id" ColumnName="Faculty_Id" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTGRADUATE_LEVEL">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.POSTGRADUATE_LEVEL">
+        <MappingFragment StoreEntitySet="POSTGRADUATE_LEVEL">
+          <ScalarProperty Name="postgraduate_level_id" ColumnName="postgraduate_level_id" />
+          <ScalarProperty Name="postgraduate_level_name" ColumnName="postgraduate_level_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTGRADUATE_STUDENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.POSTGRADUATE_STUDENT">
+        <MappingFragment StoreEntitySet="POSTGRADUATE_STUDENT">
+          <ScalarProperty Name="person_id" ColumnName="person_id" />
+          <ScalarProperty Name="postgraduate_admission_id" ColumnName="postgraduate_admission_id" />
+          <ScalarProperty Name="student_category_id" ColumnName="student_category_id" />
+          <ScalarProperty Name="student_status_id" ColumnName="student_status_id" />
+          <ScalarProperty Name="matric_number" ColumnName="matric_number" />
+          <ScalarProperty Name="student_status_reason" ColumnName="student_status_reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POSTGRADUATE_STUDENT_LEVEL">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.POSTGRADUATE_STUDENT_LEVEL">
+        <MappingFragment StoreEntitySet="POSTGRADUATE_STUDENT_LEVEL">
+          <ScalarProperty Name="postgraduate_student_level_id" ColumnName="postgraduate_student_level_id" />
+          <ScalarProperty Name="postgraduate_student_id" ColumnName="postgraduate_student_id" />
+          <ScalarProperty Name="level_id" ColumnName="level_id" />
+          <ScalarProperty Name="postgraduate_department_id" ColumnName="postgraduate_department_id" />
+          <ScalarProperty Name="session_id" ColumnName="session_id" />
+          <ScalarProperty Name="programme_id" ColumnName="programme_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROGRAMMEs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROGRAMME">
+        <MappingFragment StoreEntitySet="PROGRAMME">
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Programme_Name" ColumnName="Programme_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+          <ScalarProperty Name="Programme_Code" ColumnName="Programme_Code" />
+          <ScalarProperty Name="Programme_Description" ColumnName="Programme_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROGRAMME_DEPARTMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROGRAMME_DEPARTMENT">
+        <MappingFragment StoreEntitySet="PROGRAMME_DEPARTMENT">
+          <ScalarProperty Name="Programme_Department_Id" ColumnName="Programme_Department_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_APPLIED_COURSE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_APPLIED_COURSE">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_APPLIED_COURSE">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Admission_Type_Id" ColumnName="Admission_Type_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_JAMB_INFORMATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_JAMB_INFORMATION">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_JAMB_INFORMATION">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Jamb_Registration_Number" ColumnName="Jamb_Registration_Number" />
+          <ScalarProperty Name="Jamb_Score" ColumnName="Jamb_Score" />
+          <ScalarProperty Name="Exam_Year" ColumnName="Exam_Year" />
+          <ScalarProperty Name="FirstSubject" ColumnName="FirstSubject" />
+          <ScalarProperty Name="FirstSubjectScore" ColumnName="FirstSubjectScore" />
+          <ScalarProperty Name="SecondSubject" ColumnName="SecondSubject" />
+          <ScalarProperty Name="SeconeSubjectScore" ColumnName="SeconeSubjectScore" />
+          <ScalarProperty Name="ThirdSubject" ColumnName="ThirdSubject" />
+          <ScalarProperty Name="ThirdSubjectScore" ColumnName="ThirdSubjectScore" />
+          <ScalarProperty Name="ForthSubject" ColumnName="ForthSubject" />
+          <ScalarProperty Name="ForthSubjectScore" ColumnName="ForthSubjectScore" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_OLEVEL_EXAM_ATTEMPT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_EXAM_ATTEMPT">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_OLEVEL_EXAM_ATTEMPT">
+          <ScalarProperty Name="OLevel_Exam_Attempt_Id" ColumnName="OLevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="OLevel_Exam_Attempt_Name" ColumnName="OLevel_Exam_Attempt_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_OLEVEL_EXAM_TYPE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_EXAM_TYPE">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_OLEVEL_EXAM_TYPE">
+          <ScalarProperty Name="OLevel_Exam_Type_Id" ColumnName="OLevel_Exam_Type_Id" />
+          <ScalarProperty Name="OLevel_Exam_Name" ColumnName="OLevel_Exam_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_OLEVEL_RESULT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_RESULT">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_OLEVEL_RESULT">
+          <ScalarProperty Name="OLevel_Result_Id" ColumnName="OLevel_Result_Id" />
+          <ScalarProperty Name="Olevel_Exam_Name" ColumnName="Olevel_Exam_Name" />
+          <ScalarProperty Name="Olevel_Exam_Type_Id" ColumnName="Olevel_Exam_Type_Id" />
+          <ScalarProperty Name="Olevel_Exam_Attempt_Id" ColumnName="Olevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="Olevel_Exam_Year" ColumnName="Olevel_Exam_Year" />
+          <ScalarProperty Name="Olevel_Exam_Number" ColumnName="Olevel_Exam_Number" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_OLEVEL_RESULT_DETAIL">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_RESULT_DETAIL">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_OLEVEL_RESULT_DETAIL">
+          <ScalarProperty Name="OLevel_Result_Detail_Id" ColumnName="OLevel_Result_Detail_Id" />
+          <ScalarProperty Name="OLevel_Result_Id" ColumnName="OLevel_Result_Id" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Id" ColumnName="OLevel_Subject_Grade_Id" />
+          <ScalarProperty Name="OLevel_Subject_Id" ColumnName="OLevel_Subject_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_OLEVEL_SUBJECT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_SUBJECT">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_OLEVEL_SUBJECT">
+          <ScalarProperty Name="OLevel_Subject_Id" ColumnName="OLevel_Subject_Id" />
+          <ScalarProperty Name="OLevel_Subject_Name" ColumnName="OLevel_Subject_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_OLEVEL_SUBJECT_GRADE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_OLEVEL_SUBJECT_GRADE">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_OLEVEL_SUBJECT_GRADE">
+          <ScalarProperty Name="OLevel_Subject_Grade_Id" ColumnName="OLevel_Subject_Grade_Id" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Name" ColumnName="OLevel_Subject_Grade_Name" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Description" ColumnName="OLevel_Subject_Grade_Description" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_PROGRESS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_PROGRESS">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_PROGRESS">
+          <ScalarProperty Name="Progress_Id" ColumnName="Progress_Id" />
+          <ScalarProperty Name="Progress_Name" ColumnName="Progress_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_SECOND_APPLIED_COURSE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_SECOND_APPLIED_COURSE">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_SECOND_APPLIED_COURSE">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Admission_Type_Id" ColumnName="Admission_Type_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_STUDENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_STUDENT">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_STUDENT">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Progress_Id" ColumnName="Progress_Id" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="Status_Id" ColumnName="Status_Id" />
+          <ScalarProperty Name="RejectionReason" ColumnName="RejectionReason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_STUDENT_PREVIOUS_EDUCATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_STUDENT_PREVIOUS_EDUCATION">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_STUDENT_PREVIOUS_EDUCATION">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="person_id" ColumnName="person_id" />
+          <ScalarProperty Name="institution" ColumnName="institution" />
+          <ScalarProperty Name="certificate_obtained" ColumnName="certificate_obtained" />
+          <ScalarProperty Name="course_of_study" ColumnName="course_of_study" />
+          <ScalarProperty Name="class_of_certificate" ColumnName="class_of_certificate" />
+          <ScalarProperty Name="date_of_graduation" ColumnName="date_of_graduation" />
+          <ScalarProperty Name="cgpa" ColumnName="cgpa" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PUBLICATION_TYPE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PUBLICATION_TYPE">
+        <MappingFragment StoreEntitySet="PUBLICATION_TYPE">
+          <ScalarProperty Name="Publication_Type_Id" ColumnName="Publication_Type_Id" />
+          <ScalarProperty Name="Publication_Type_Name" ColumnName="Publication_Type_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="QUIZ_TIME_TABLE_SCHEDULE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.QUIZ_TIME_TABLE_SCHEDULE">
+        <MappingFragment StoreEntitySet="QUIZ_TIME_TABLE_SCHEDULE">
+          <ScalarProperty Name="Quiz_Time_Table_Schedule_Id" ColumnName="Quiz_Time_Table_Schedule_Id" />
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Lecturer_User_Id" ColumnName="Lecturer_User_Id" />
+          <ScalarProperty Name="Start_Date_Time" ColumnName="Start_Date_Time" />
+          <ScalarProperty Name="Stop_Date_Time" ColumnName="Stop_Date_Time" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REFERAL_SYSTEM">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.REFERAL_SYSTEM">
+        <MappingFragment StoreEntitySet="REFERAL_SYSTEM">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Student_Id" ColumnName="Student_Id" />
+          <ScalarProperty Name="referer_name" ColumnName="referer_name" />
+          <ScalarProperty Name="Advert_id" ColumnName="Advert_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REFEREEs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.REFEREE">
+        <MappingFragment StoreEntitySet="REFEREE">
+          <ScalarProperty Name="Referee_Id" ColumnName="Referee_Id" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Recommendation_Later" ColumnName="Recommendation_Later" />
+          <ScalarProperty Name="Prospective_Student_Id" ColumnName="Prospective_Student_Id" />
+          <ScalarProperty Name="Has_Sent_Email" ColumnName="Has_Sent_Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RELATIONSHIPs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.RELATIONSHIP">
+        <MappingFragment StoreEntitySet="RELATIONSHIP">
+          <ScalarProperty Name="Relationship_Id" ColumnName="Relationship_Id" />
+          <ScalarProperty Name="Relationship_Name" ColumnName="Relationship_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RELIGIONs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.RELIGION">
+        <MappingFragment StoreEntitySet="RELIGION">
+          <ScalarProperty Name="Religion_Id" ColumnName="Religion_Id" />
+          <ScalarProperty Name="Religion_Name" ColumnName="Religion_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REMITA_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.REMITA_PAYMENT">
+        <MappingFragment StoreEntitySet="REMITA_PAYMENT">
+          <ScalarProperty Name="Payment_Id" ColumnName="Payment_Id" />
+          <ScalarProperty Name="RRR" ColumnName="RRR" />
+          <ScalarProperty Name="OrderId" ColumnName="OrderId" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Receipt_No" ColumnName="Receipt_No" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Merchant_Code" ColumnName="Merchant_Code" />
+          <ScalarProperty Name="Transaction_Amount" ColumnName="Transaction_Amount" />
+          <ScalarProperty Name="Transaction_Date" ColumnName="Transaction_Date" />
+          <ScalarProperty Name="Confirmation_No" ColumnName="Confirmation_No" />
+          <ScalarProperty Name="Bank_Code" ColumnName="Bank_Code" />
+          <ScalarProperty Name="Branch_Code" ColumnName="Branch_Code" />
+          <ScalarProperty Name="Customer_Id" ColumnName="Customer_Id" />
+          <ScalarProperty Name="Customer_Name" ColumnName="Customer_Name" />
+          <ScalarProperty Name="Customer_Address" ColumnName="Customer_Address" />
+          <ScalarProperty Name="Used" ColumnName="Used" />
+          <ScalarProperty Name="Used_By_Person_Id" ColumnName="Used_By_Person_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REMITA_PAYMENT_SETTINGS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.REMITA_PAYMENT_SETTINGS">
+        <MappingFragment StoreEntitySet="REMITA_PAYMENT_SETTINGS">
+          <ScalarProperty Name="Payment_SettingId" ColumnName="Payment_SettingId" />
+          <ScalarProperty Name="MarchantId" ColumnName="MarchantId" />
+          <ScalarProperty Name="Api_Key" ColumnName="Api_Key" />
+          <ScalarProperty Name="serviceTypeId" ColumnName="serviceTypeId" />
+          <ScalarProperty Name="Response_Url" ColumnName="Response_Url" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="REMITA_SPLIT_DETAILS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.REMITA_SPLIT_DETAILS">
+        <MappingFragment StoreEntitySet="REMITA_SPLIT_DETAILS">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Bank_Code" ColumnName="Bank_Code" />
+          <ScalarProperty Name="Beneficiary_Account" ColumnName="Beneficiary_Account" />
+          <ScalarProperty Name="Beneficiary_Name" ColumnName="Beneficiary_Name" />
+          <ScalarProperty Name="Beneficiary_Amount" ColumnName="Beneficiary_Amount" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RIGHTs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.RIGHT">
+        <MappingFragment StoreEntitySet="RIGHT">
+          <ScalarProperty Name="Right_Id" ColumnName="Right_Id" />
+          <ScalarProperty Name="Right_Action" ColumnName="Right_Action" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROLEs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.ROLE">
+        <MappingFragment StoreEntitySet="ROLE">
+          <ScalarProperty Name="Role_Id" ColumnName="Role_Id" />
+          <ScalarProperty Name="Role_Name" ColumnName="Role_Name" />
+          <ScalarProperty Name="Role_Description" ColumnName="Role_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROOM_CAPACITY">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.ROOM_CAPACITY">
+        <MappingFragment StoreEntitySet="ROOM_CAPACITY">
+          <ScalarProperty Name="Room_Capacity_Id" ColumnName="Room_Capacity_Id" />
+          <ScalarProperty Name="Room_Capacity_Number" ColumnName="Room_Capacity_Number" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROOM_CORNER">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.ROOM_CORNER">
+        <MappingFragment StoreEntitySet="ROOM_CORNER">
+          <ScalarProperty Name="Room_Corner_Id" ColumnName="Room_Corner_Id" />
+          <ScalarProperty Name="Room_Corner_Name" ColumnName="Room_Corner_Name" />
+          <ScalarProperty Name="Room_Id" ColumnName="Room_Id" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROOMS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.ROOM">
+        <MappingFragment StoreEntitySet="ROOMS">
+          <ScalarProperty Name="Room_Id" ColumnName="Room_Id" />
+          <ScalarProperty Name="Room_Name" ColumnName="Room_Name" />
+          <ScalarProperty Name="Room_Capacity_Id" ColumnName="Room_Capacity_Id" />
+          <ScalarProperty Name="Series_Id" ColumnName="Series_Id" />
+          <ScalarProperty Name="Hostel_Id" ColumnName="Hostel_Id" />
+          <ScalarProperty Name="Series_Setting_Id" ColumnName="Series_Setting_Id" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SEMESTERs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.SEMESTER">
+        <MappingFragment StoreEntitySet="SEMESTER">
+          <ScalarProperty Name="Semester_Id" ColumnName="Semester_Id" />
+          <ScalarProperty Name="Semester_Name" ColumnName="Semester_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SERIES">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.SERIES">
+        <MappingFragment StoreEntitySet="SERIES">
+          <ScalarProperty Name="Series_Id" ColumnName="Series_Id" />
+          <ScalarProperty Name="Series_Name" ColumnName="Series_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SERIES_SETTING">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.SERIES_SETTING">
+        <MappingFragment StoreEntitySet="SERIES_SETTING">
+          <ScalarProperty Name="Series_Setting_Id" ColumnName="Series_Setting_Id" />
+          <ScalarProperty Name="Hostel_Id" ColumnName="Hostel_Id" />
+          <ScalarProperty Name="Series_Id" ColumnName="Series_Id" />
+          <ScalarProperty Name="Number_of_Rooms" ColumnName="Number_of_Rooms" />
+          <ScalarProperty Name="Room_Capacity" ColumnName="Room_Capacity" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SESSIONs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.SESSION">
+        <MappingFragment StoreEntitySet="SESSION">
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SESSION_SEMESTER">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.SESSION_SEMESTER">
+        <MappingFragment StoreEntitySet="SESSION_SEMESTER">
+          <ScalarProperty Name="Session_Semester_Id" ColumnName="Session_Semester_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Semester_Id" ColumnName="Semester_Id" />
+          <ScalarProperty Name="Semester_Start_Date" ColumnName="Semester_Start_Date" />
+          <ScalarProperty Name="Semester_End_Date" ColumnName="Semester_End_Date" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFFs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STAFF">
+        <MappingFragment StoreEntitySet="STAFF">
+          <ScalarProperty Name="Staff_Id" ColumnName="Staff_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+          <ScalarProperty Name="Date_Entered" ColumnName="Date_Entered" />
+          <ScalarProperty Name="Entered_By" ColumnName="Entered_By" />
+          <ScalarProperty Name="Appointment_Date" ColumnName="Appointment_Date" />
+          <ScalarProperty Name="Appointment_Nature" ColumnName="Appointment_Nature" />
+          <ScalarProperty Name="Assumption_Date" ColumnName="Assumption_Date" />
+          <ScalarProperty Name="Rank" ColumnName="Rank" />
+          <ScalarProperty Name="Faculty_Id" ColumnName="Faculty_Id" />
+          <ScalarProperty Name="Dismissal_Date" ColumnName="Dismissal_Date" />
+          <ScalarProperty Name="Retirement_Date" ColumnName="Retirement_Date" />
+          <ScalarProperty Name="Resign_Date" ColumnName="Resign_Date" />
+          <ScalarProperty Name="Staff_Type_Id" ColumnName="Staff_Type_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFF_COURSE_ALLOCATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STAFF_COURSE_ALLOCATION">
+        <MappingFragment StoreEntitySet="STAFF_COURSE_ALLOCATION">
+          <ScalarProperty Name="Staff_Course_Allocation_Id" ColumnName="Staff_Course_Allocation_Id" />
+          <ScalarProperty Name="Lecturer_User_Id" ColumnName="Lecturer_User_Id" />
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFF_IMAGES">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STAFF_IMAGES">
+        <MappingFragment StoreEntitySet="STAFF_IMAGES">
+          <ScalarProperty Name="Image_Id" ColumnName="Image_Id" />
+          <ScalarProperty Name="Image_Name" ColumnName="Image_Name" />
+          <ScalarProperty Name="Image_Url" ColumnName="Image_Url" />
+          <ScalarProperty Name="Staff_Id" ColumnName="Staff_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFF_PUBLICATIONS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STAFF_PUBLICATIONS">
+        <MappingFragment StoreEntitySet="STAFF_PUBLICATIONS">
+          <ScalarProperty Name="Publication_Id" ColumnName="Publication_Id" />
+          <ScalarProperty Name="Publication_Type_Id" ColumnName="Publication_Type_Id" />
+          <ScalarProperty Name="Publication_Title" ColumnName="Publication_Title" />
+          <ScalarProperty Name="Publication_Serial_Number" ColumnName="Publication_Serial_Number" />
+          <ScalarProperty Name="Publication_Url" ColumnName="Publication_Url" />
+          <ScalarProperty Name="Staff_Id" ColumnName="Staff_Id" />
+          <ScalarProperty Name="Publication_Date" ColumnName="Publication_Date" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFF_QUALIFICATIONS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STAFF_QUALIFICATIONS">
+        <MappingFragment StoreEntitySet="STAFF_QUALIFICATIONS">
+          <ScalarProperty Name="Qualification_Id" ColumnName="Qualification_Id" />
+          <ScalarProperty Name="Qualification_Name" ColumnName="Qualification_Name" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="Cert_Obtained" ColumnName="Cert_Obtained" />
+          <ScalarProperty Name="Staff_Id" ColumnName="Staff_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFF_RATING">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STAFF_RATING">
+        <MappingFragment StoreEntitySet="STAFF_RATING">
+          <ScalarProperty Name="Staff_Rating_Id" ColumnName="Staff_Rating_Id" />
+          <ScalarProperty Name="StaffUser_Id" ColumnName="StaffUser_Id" />
+          <ScalarProperty Name="Rated_By_Person" ColumnName="Rated_By_Person" />
+          <ScalarProperty Name="Rating_Score" ColumnName="Rating_Score" />
+          <ScalarProperty Name="Semester_Id" ColumnName="Semester_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Date_Entered" ColumnName="Date_Entered" />
+          <ScalarProperty Name="activated" ColumnName="activated" />
+          <ScalarProperty Name="Rating_Comment" ColumnName="Rating_Comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFF_TYPE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STAFF_TYPE">
+        <MappingFragment StoreEntitySet="STAFF_TYPE">
+          <ScalarProperty Name="Staff_Type_Id" ColumnName="Staff_Type_Id" />
+          <ScalarProperty Name="Staff_Type_Name" ColumnName="Staff_Type_Name" />
+          <ScalarProperty Name="Staff_Type_Description" ColumnName="Staff_Type_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STAFF_WORKING_EXPERIENCE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STAFF_WORKING_EXPERIENCE">
+        <MappingFragment StoreEntitySet="STAFF_WORKING_EXPERIENCE">
+          <ScalarProperty Name="Experience_Id" ColumnName="Experience_Id" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="OrganisationName" ColumnName="OrganisationName" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Staff_Id" ColumnName="Staff_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STATEs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STATE">
+        <MappingFragment StoreEntitySet="STATE">
+          <ScalarProperty Name="State_Id" ColumnName="State_Id" />
+          <ScalarProperty Name="State_Name" ColumnName="State_Name" />
+          <ScalarProperty Name="Nationality_Id" ColumnName="Nationality_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STATUS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STATUS">
+        <MappingFragment StoreEntitySet="STATUS">
+          <ScalarProperty Name="Status_Id" ColumnName="Status_Id" />
+          <ScalarProperty Name="Status_Name" ColumnName="Status_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STUDENTs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STUDENT">
+        <MappingFragment StoreEntitySet="STUDENT">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Admission_Id" ColumnName="Admission_Id" />
+          <ScalarProperty Name="Student_Category_Id" ColumnName="Student_Category_Id" />
+          <ScalarProperty Name="Student_Status_Id" ColumnName="Student_Status_Id" />
+          <ScalarProperty Name="Matric_Number" ColumnName="Matric_Number" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+          <ScalarProperty Name="Student_Status_Reason" ColumnName="Student_Status_Reason" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STUDENT_CATEGORY">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STUDENT_CATEGORY">
+        <MappingFragment StoreEntitySet="STUDENT_CATEGORY">
+          <ScalarProperty Name="Student_Category_Id" ColumnName="Student_Category_Id" />
+          <ScalarProperty Name="Student_Category_Name" ColumnName="Student_Category_Name" />
+          <ScalarProperty Name="Student_Category_Description" ColumnName="Student_Category_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STUDENT_GRADE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STUDENT_GRADE">
+        <MappingFragment StoreEntitySet="STUDENT_GRADE">
+          <ScalarProperty Name="Student_Grade_Id" ColumnName="Student_Grade_Id" />
+          <ScalarProperty Name="Student_Grade_Name" ColumnName="Student_Grade_Name" />
+          <ScalarProperty Name="Score_From" ColumnName="Score_From" />
+          <ScalarProperty Name="Score_To" ColumnName="Score_To" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+          <ScalarProperty Name="Grade_Point" ColumnName="Grade_Point" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STUDENT_HOSTEL">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STUDENT_HOSTEL">
+        <MappingFragment StoreEntitySet="STUDENT_HOSTEL">
+          <ScalarProperty Name="Student_Hostel_Id" ColumnName="Student_Hostel_Id" />
+          <ScalarProperty Name="Room_Id" ColumnName="Room_Id" />
+          <ScalarProperty Name="Hostel_Id" ColumnName="Hostel_Id" />
+          <ScalarProperty Name="Hostel_Gender_Id" ColumnName="Hostel_Gender_Id" />
+          <ScalarProperty Name="Series_Id" ColumnName="Series_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Student_Id" ColumnName="Student_Id" />
+          <ScalarProperty Name="Student_Level_Id" ColumnName="Student_Level_Id" />
+          <ScalarProperty Name="Room_Corner_Id" ColumnName="Room_Corner_Id" />
+          <ScalarProperty Name="Series_Setting_Id" ColumnName="Series_Setting_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STUDENT_LEVEL">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STUDENT_LEVEL">
+        <MappingFragment StoreEntitySet="STUDENT_LEVEL">
+          <ScalarProperty Name="Student_Level_Id" ColumnName="Student_Level_Id" />
+          <ScalarProperty Name="Student_Id" ColumnName="Student_Id" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STUDENT_RESULT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STUDENT_RESULT">
+        <MappingFragment StoreEntitySet="STUDENT_RESULT">
+          <ScalarProperty Name="Student_Result_Id" ColumnName="Student_Result_Id" />
+          <ScalarProperty Name="Course_Registration_Id" ColumnName="Course_Registration_Id" />
+          <ScalarProperty Name="Test_Score" ColumnName="Test_Score" />
+          <ScalarProperty Name="Exam_Score" ColumnName="Exam_Score" />
+          <ScalarProperty Name="Uploader_Id" ColumnName="Uploader_Id" />
+          <ScalarProperty Name="Date_Uploaded" ColumnName="Date_Uploaded" />
+          <ScalarProperty Name="Student_Grade_Id" ColumnName="Student_Grade_Id" />
+          <ScalarProperty Name="Total_Score" ColumnName="Total_Score" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STUDENT_STATUS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STUDENT_STATUS">
+        <MappingFragment StoreEntitySet="STUDENT_STATUS">
+          <ScalarProperty Name="Student_Status_Id" ColumnName="Student_Status_Id" />
+          <ScalarProperty Name="Student_Status_Name" ColumnName="Student_Status_Name" />
+          <ScalarProperty Name="Student_Status_Description" ColumnName="Student_Status_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TABLE_LIST">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.TABLE_LIST">
+        <MappingFragment StoreEntitySet="TABLE_LIST">
+          <ScalarProperty Name="Table_Name" ColumnName="Table_Name" />
+          <ScalarProperty Name="Table_Id" ColumnName="Table_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TITLEs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.TITLE">
+        <MappingFragment StoreEntitySet="TITLE">
+          <ScalarProperty Name="Title_Id" ColumnName="Title_Id" />
+          <ScalarProperty Name="Title_Name" ColumnName="Title_Name" />
+          <ScalarProperty Name="Activated" ColumnName="Activated" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRANSCRIPT_CLEARANCE_STATUS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.TRANSCRIPT_CLEARANCE_STATUS">
+        <MappingFragment StoreEntitySet="TRANSCRIPT_CLEARANCE_STATUS">
+          <ScalarProperty Name="Transcript_clearance_Status_Id" ColumnName="Transcript_clearance_Status_Id" />
+          <ScalarProperty Name="Transcript_clearance_Status_Name" ColumnName="Transcript_clearance_Status_Name" />
+          <ScalarProperty Name="Transcript_clearance_Status_Description" ColumnName="Transcript_clearance_Status_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRANSCRIPT_REQUEST">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.TRANSCRIPT_REQUEST">
+        <MappingFragment StoreEntitySet="TRANSCRIPT_REQUEST">
+          <ScalarProperty Name="Transcript_Request_Id" ColumnName="Transcript_Request_Id" />
+          <ScalarProperty Name="Student_id" ColumnName="Student_id" />
+          <ScalarProperty Name="Payment_Id" ColumnName="Payment_Id" />
+          <ScalarProperty Name="Date_Requested" ColumnName="Date_Requested" />
+          <ScalarProperty Name="Destination_Address" ColumnName="Destination_Address" />
+          <ScalarProperty Name="Destination_State_Id" ColumnName="Destination_State_Id" />
+          <ScalarProperty Name="Destination_Country_Id" ColumnName="Destination_Country_Id" />
+          <ScalarProperty Name="Transcript_clearance_Status_Id" ColumnName="Transcript_clearance_Status_Id" />
+          <ScalarProperty Name="Transcript_Status_Id" ColumnName="Transcript_Status_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRANSCRIPT_STATUS">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.TRANSCRIPT_STATUS">
+        <MappingFragment StoreEntitySet="TRANSCRIPT_STATUS">
+          <ScalarProperty Name="Transcript_Status_Id" ColumnName="Transcript_Status_Id" />
+          <ScalarProperty Name="Transcript_Status_Name" ColumnName="Transcript_Status_Name" />
+          <ScalarProperty Name="Transcript_Status_Description" ColumnName="Transcript_Status_Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TRIBEs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.TRIBE">
+        <MappingFragment StoreEntitySet="TRIBE">
+          <ScalarProperty Name="Tribe_Id" ColumnName="Tribe_Id" />
+          <ScalarProperty Name="Tribe_Name" ColumnName="Tribe_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USERs">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.USER">
+        <MappingFragment StoreEntitySet="USER">
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="User_Name" ColumnName="User_Name" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Role_Id" ColumnName="Role_Id" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USER_RIGHT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.USER_RIGHT">
+        <MappingFragment StoreEntitySet="USER_RIGHT">
+          <ScalarProperty Name="User_Right_Id" ColumnName="User_Right_Id" />
+          <ScalarProperty Name="User_Id" ColumnName="User_Id" />
+          <ScalarProperty Name="Right_Id" ColumnName="Right_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VISITATION_REGISTATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VISITATION_REGISTATION">
+        <MappingFragment StoreEntitySet="VISITATION_REGISTATION">
+          <ScalarProperty Name="Visitation_Id" ColumnName="Visitation_Id" />
+          <ScalarProperty Name="Visitor_Name" ColumnName="Visitor_Name" />
+          <ScalarProperty Name="Phone_Number" ColumnName="Phone_Number" />
+          <ScalarProperty Name="Host" ColumnName="Host" />
+          <ScalarProperty Name="Time_In" ColumnName="Time_In" />
+          <ScalarProperty Name="Time_Out" ColumnName="Time_Out" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="JUPEB_ACADEMIC_REPORT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.JUPEB_ACADEMIC_REPORT">
+        <MappingFragment StoreEntitySet="JUPEB_ACADEMIC_REPORT">
+          <ScalarProperty Name="Olevel_Exam_Name" ColumnName="Olevel_Exam_Name" />
+          <ScalarProperty Name="Olevel_Exam_Attempt_Id" ColumnName="Olevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="OLevel_Result_Id" ColumnName="OLevel_Result_Id" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Name" ColumnName="OLevel_Subject_Grade_Name" />
+          <ScalarProperty Name="OLevel_Subject_Name" ColumnName="OLevel_Subject_Name" />
+          <ScalarProperty Name="OLevel_Subject_Id" ColumnName="OLevel_Subject_Id" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="OLevel_Exam_Attempt_Name" ColumnName="OLevel_Exam_Attempt_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Jupeb_Subject_Combination_Id" ColumnName="Jupeb_Subject_Combination_Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Olevel_Exam_Number" ColumnName="Olevel_Exam_Number" />
+          <ScalarProperty Name="Olevel_Exam_Year" ColumnName="Olevel_Exam_Year" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PROSPECTIVE_ACADEMIC_RECORD">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.PROSPECTIVE_ACADEMIC_RECORD">
+        <MappingFragment StoreEntitySet="PROSPECTIVE_ACADEMIC_RECORD">
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Jamb_Registration_Number" ColumnName="Jamb_Registration_Number" />
+          <ScalarProperty Name="Exam_Year" ColumnName="Exam_Year" />
+          <ScalarProperty Name="Jamb_Score" ColumnName="Jamb_Score" />
+          <ScalarProperty Name="OLevel_Subject_Name" ColumnName="OLevel_Subject_Name" />
+          <ScalarProperty Name="Olevel_Exam_Year" ColumnName="Olevel_Exam_Year" />
+          <ScalarProperty Name="Olevel_Exam_Number" ColumnName="Olevel_Exam_Number" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Name" ColumnName="OLevel_Subject_Grade_Name" />
+          <ScalarProperty Name="OLevel_Exam_Name" ColumnName="OLevel_Exam_Name" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Programme_Name" ColumnName="Programme_Name" />
+          <ScalarProperty Name="OLevel_Exam_Attempt_Name" ColumnName="OLevel_Exam_Attempt_Name" />
+          <ScalarProperty Name="OLevel_Exam_Attempt_Id" ColumnName="OLevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Faculty_Id" ColumnName="Faculty_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="STUDENT_HOSTEL_ALLOCATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.STUDENT_HOSTEL_ALLOCATION">
+        <MappingFragment StoreEntitySet="STUDENT_HOSTEL_ALLOCATION">
+          <ScalarProperty Name="Student_Hostel_Id" ColumnName="Student_Hostel_Id" />
+          <ScalarProperty Name="Room_Id" ColumnName="Room_Id" />
+          <ScalarProperty Name="Hostel_Id" ColumnName="Hostel_Id" />
+          <ScalarProperty Name="Hostel_Gender_Id" ColumnName="Hostel_Gender_Id" />
+          <ScalarProperty Name="Series_Id" ColumnName="Series_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Student_Id" ColumnName="Student_Id" />
+          <ScalarProperty Name="Student_Level_Id" ColumnName="Student_Level_Id" />
+          <ScalarProperty Name="Room_Corner_Id" ColumnName="Room_Corner_Id" />
+          <ScalarProperty Name="Hostel_Name" ColumnName="Hostel_Name" />
+          <ScalarProperty Name="Room_Name" ColumnName="Room_Name" />
+          <ScalarProperty Name="Room_Corner_Name" ColumnName="Room_Corner_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_ADMISSION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_ADMISSION">
+        <MappingFragment StoreEntitySet="VW_ADMISSION">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="sessionId" ColumnName="sessionId" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Programme_Name" ColumnName="Programme_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="admission_Id" ColumnName="admission_Id" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Faculty_Id" ColumnName="Faculty_Id" />
+          <ScalarProperty Name="Contact_Address" ColumnName="Contact_Address" />
+          <ScalarProperty Name="Email_Address" ColumnName="Email_Address" />
+          <ScalarProperty Name="Mobile_Phone" ColumnName="Mobile_Phone" />
+          <ScalarProperty Name="Date_Of_Birth" ColumnName="Date_Of_Birth" />
+          <ScalarProperty Name="Home_Address" ColumnName="Home_Address" />
+          <ScalarProperty Name="Home_Town" ColumnName="Home_Town" />
+          <ScalarProperty Name="Course_Duration" ColumnName="Course_Duration" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_JUPEB_ACADEMIC_REPORT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_JUPEB_ACADEMIC_REPORT">
+        <MappingFragment StoreEntitySet="VW_JUPEB_ACADEMIC_REPORT">
+          <ScalarProperty Name="Olevel_Exam_Name" ColumnName="Olevel_Exam_Name" />
+          <ScalarProperty Name="Olevel_Exam_Attempt_Id" ColumnName="Olevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="OLevel_Result_Id" ColumnName="OLevel_Result_Id" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Name" ColumnName="OLevel_Subject_Grade_Name" />
+          <ScalarProperty Name="OLevel_Subject_Name" ColumnName="OLevel_Subject_Name" />
+          <ScalarProperty Name="OLevel_Subject_Id" ColumnName="OLevel_Subject_Id" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="OLevel_Exam_Attempt_Name" ColumnName="OLevel_Exam_Attempt_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Jupeb_Subject_Combination_Id" ColumnName="Jupeb_Subject_Combination_Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Olevel_Exam_Number" ColumnName="Olevel_Exam_Number" />
+          <ScalarProperty Name="Olevel_Exam_Year" ColumnName="Olevel_Exam_Year" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_JUPEB_ADMISSION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_JUPEB_ADMISSION">
+        <MappingFragment StoreEntitySet="VW_JUPEB_ADMISSION">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Jupeb_Subject_Combination_Id" ColumnName="Jupeb_Subject_Combination_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="Jupeb_Admission_Id" ColumnName="Jupeb_Admission_Id" />
+          <ScalarProperty Name="Jupeb_Subject_Name" ColumnName="Jupeb_Subject_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Programme_Name" ColumnName="Programme_Name" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="Contact_Address" ColumnName="Contact_Address" />
+          <ScalarProperty Name="Email_Address" ColumnName="Email_Address" />
+          <ScalarProperty Name="Mobile_Phone" ColumnName="Mobile_Phone" />
+          <ScalarProperty Name="Date_Of_Birth" ColumnName="Date_Of_Birth" />
+          <ScalarProperty Name="Home_Address" ColumnName="Home_Address" />
+          <ScalarProperty Name="Home_Town" ColumnName="Home_Town" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_JUPEB_PROSPCTIVE_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_JUPEB_PROSPCTIVE_PAYMENT">
+        <MappingFragment StoreEntitySet="VW_JUPEB_PROSPCTIVE_PAYMENT">
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+          <ScalarProperty Name="Fee_Schedule_Name" ColumnName="Fee_Schedule_Name" />
+          <ScalarProperty Name="Payment_Id" ColumnName="Payment_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="Jupeb_Subject_Combination_Id" ColumnName="Jupeb_Subject_Combination_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="JupebSubjectId" ColumnName="JupebSubjectId" />
+          <ScalarProperty Name="Confirmation_No" ColumnName="Confirmation_No" />
+          <ScalarProperty Name="Invoice_Number" ColumnName="Invoice_Number" />
+          <ScalarProperty Name="Transaction_Amount" ColumnName="Transaction_Amount" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Status_Id" ColumnName="Status_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_JUPEB_PROSPECTIVE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_JUPEB_PROSPECTIVE">
+        <MappingFragment StoreEntitySet="VW_JUPEB_PROSPECTIVE">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Mobile_Phone" ColumnName="Mobile_Phone" />
+          <ScalarProperty Name="Passport_Url" ColumnName="Passport_Url" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="Jupeb_Subject_Combination_Id" ColumnName="Jupeb_Subject_Combination_Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="OLevel_Subject_Name" ColumnName="OLevel_Subject_Name" />
+          <ScalarProperty Name="Olevel_Exam_Attempt_Id" ColumnName="Olevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="OLevel_Result_Id" ColumnName="OLevel_Result_Id" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Name" ColumnName="OLevel_Subject_Grade_Name" />
+          <ScalarProperty Name="Programme_Name" ColumnName="Programme_Name" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Gender_Id" ColumnName="Gender_Id" />
+          <ScalarProperty Name="Contact_Address" ColumnName="Contact_Address" />
+          <ScalarProperty Name="Date_Of_Birth" ColumnName="Date_Of_Birth" />
+          <ScalarProperty Name="State_Id" ColumnName="State_Id" />
+          <ScalarProperty Name="State_Name" ColumnName="State_Name" />
+          <ScalarProperty Name="Local_Government_Id" ColumnName="Local_Government_Id" />
+          <ScalarProperty Name="Local_Government_Name" ColumnName="Local_Government_Name" />
+          <ScalarProperty Name="Country_Id" ColumnName="Country_Id" />
+          <ScalarProperty Name="Country_Name" ColumnName="Country_Name" />
+          <ScalarProperty Name="Tribe_Id" ColumnName="Tribe_Id" />
+          <ScalarProperty Name="Tribe_Name" ColumnName="Tribe_Name" />
+          <ScalarProperty Name="Disability_Id" ColumnName="Disability_Id" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="Disability_Name" ColumnName="Disability_Name" />
+          <ScalarProperty Name="Genotype_Id" ColumnName="Genotype_Id" />
+          <ScalarProperty Name="Home_Town" ColumnName="Home_Town" />
+          <ScalarProperty Name="Email_Address" ColumnName="Email_Address" />
+          <ScalarProperty Name="Religion_Id" ColumnName="Religion_Id" />
+          <ScalarProperty Name="Religion_Name" ColumnName="Religion_Name" />
+          <ScalarProperty Name="Gender_Name" ColumnName="Gender_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_JUPEB_PROSPECTIVE_PAYBILL_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_JUPEB_PROSPECTIVE_PAYBILL_PAYMENT">
+        <MappingFragment StoreEntitySet="VW_JUPEB_PROSPECTIVE_PAYBILL_PAYMENT">
+          <ScalarProperty Name="Fee_Schedule_Name" ColumnName="Fee_Schedule_Name" />
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+          <ScalarProperty Name="payment_reference" ColumnName="payment_reference" />
+          <ScalarProperty Name="Payment_Id" ColumnName="Payment_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Invoice_Number" ColumnName="Invoice_Number" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Jupeb_Subject_Combination_Id" ColumnName="Jupeb_Subject_Combination_Id" />
+          <ScalarProperty Name="invoice_amount" ColumnName="invoice_amount" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="Status_Id" ColumnName="Status_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_PAYBILL_PROSPECTIVE_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_PAYBILL_PROSPECTIVE_PAYMENT">
+        <MappingFragment StoreEntitySet="VW_PAYBILL_PROSPECTIVE_PAYMENT">
+          <ScalarProperty Name="invoice_amount" ColumnName="invoice_amount" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Invoice_Number" ColumnName="Invoice_Number" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="SecondDepartmentId" ColumnName="SecondDepartmentId" />
+          <ScalarProperty Name="Fee_Schedule_Name" ColumnName="Fee_Schedule_Name" />
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="AdmissionTypeName" ColumnName="AdmissionTypeName" />
+          <ScalarProperty Name="Admission_Type_Id" ColumnName="Admission_Type_Id" />
+          <ScalarProperty Name="Status_Id" ColumnName="Status_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_POSTGRADUATE_ACADEMIC_REPORT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_POSTGRADUATE_ACADEMIC_REPORT">
+        <MappingFragment StoreEntitySet="VW_POSTGRADUATE_ACADEMIC_REPORT">
+          <ScalarProperty Name="Olevel_Exam_Name" ColumnName="Olevel_Exam_Name" />
+          <ScalarProperty Name="Olevel_Exam_Attempt_Id" ColumnName="Olevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="OLevel_Result_Id" ColumnName="OLevel_Result_Id" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Name" ColumnName="OLevel_Subject_Grade_Name" />
+          <ScalarProperty Name="OLevel_Subject_Name" ColumnName="OLevel_Subject_Name" />
+          <ScalarProperty Name="OLevel_Subject_Id" ColumnName="OLevel_Subject_Id" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="OLevel_Exam_Attempt_Name" ColumnName="OLevel_Exam_Attempt_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Olevel_Exam_Number" ColumnName="Olevel_Exam_Number" />
+          <ScalarProperty Name="Olevel_Exam_Year" ColumnName="Olevel_Exam_Year" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="Expr2" ColumnName="Expr2" />
+          <ScalarProperty Name="PostGraduate_Department_Id" ColumnName="PostGraduate_Department_Id" />
+          <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_POSTGRADUATE_ADMISSION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_POSTGRADUATE_ADMISSION">
+        <MappingFragment StoreEntitySet="VW_POSTGRADUATE_ADMISSION">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Programme_Name" ColumnName="Programme_Name" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="PostGraduate_Department_Id" ColumnName="PostGraduate_Department_Id" />
+          <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Contact_Address" ColumnName="Contact_Address" />
+          <ScalarProperty Name="Email_Address" ColumnName="Email_Address" />
+          <ScalarProperty Name="Mobile_Phone" ColumnName="Mobile_Phone" />
+          <ScalarProperty Name="Date_Of_Birth" ColumnName="Date_Of_Birth" />
+          <ScalarProperty Name="Home_Town" ColumnName="Home_Town" />
+          <ScalarProperty Name="Home_Address" ColumnName="Home_Address" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_POSTGRADUATE_PROSPCTIVE_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_POSTGRADUATE_PROSPCTIVE_PAYMENT">
+        <MappingFragment StoreEntitySet="VW_POSTGRADUATE_PROSPCTIVE_PAYMENT">
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+          <ScalarProperty Name="Fee_Schedule_Name" ColumnName="Fee_Schedule_Name" />
+          <ScalarProperty Name="Payment_Id" ColumnName="Payment_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Confirmation_No" ColumnName="Confirmation_No" />
+          <ScalarProperty Name="Invoice_Number" ColumnName="Invoice_Number" />
+          <ScalarProperty Name="Transaction_Amount" ColumnName="Transaction_Amount" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="PostGraduate_Department_Id" ColumnName="PostGraduate_Department_Id" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Status_Id" ColumnName="Status_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_POSTGRADUATE_PROSPECTIVE_OLEVEL">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_POSTGRADUATE_PROSPECTIVE_OLEVEL">
+        <MappingFragment StoreEntitySet="VW_POSTGRADUATE_PROSPECTIVE_OLEVEL">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Mobile_Phone" ColumnName="Mobile_Phone" />
+          <ScalarProperty Name="Passport_Url" ColumnName="Passport_Url" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="OLevel_Subject_Name" ColumnName="OLevel_Subject_Name" />
+          <ScalarProperty Name="Olevel_Exam_Attempt_Id" ColumnName="Olevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="OLevel_Result_Id" ColumnName="OLevel_Result_Id" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Name" ColumnName="OLevel_Subject_Grade_Name" />
+          <ScalarProperty Name="Programme_Name" ColumnName="Programme_Name" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Gender_Id" ColumnName="Gender_Id" />
+          <ScalarProperty Name="Contact_Address" ColumnName="Contact_Address" />
+          <ScalarProperty Name="Date_Of_Birth" ColumnName="Date_Of_Birth" />
+          <ScalarProperty Name="State_Id" ColumnName="State_Id" />
+          <ScalarProperty Name="State_Name" ColumnName="State_Name" />
+          <ScalarProperty Name="Local_Government_Id" ColumnName="Local_Government_Id" />
+          <ScalarProperty Name="Local_Government_Name" ColumnName="Local_Government_Name" />
+          <ScalarProperty Name="Country_Id" ColumnName="Country_Id" />
+          <ScalarProperty Name="Country_Name" ColumnName="Country_Name" />
+          <ScalarProperty Name="Tribe_Id" ColumnName="Tribe_Id" />
+          <ScalarProperty Name="Tribe_Name" ColumnName="Tribe_Name" />
+          <ScalarProperty Name="Disability_Id" ColumnName="Disability_Id" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="Disability_Name" ColumnName="Disability_Name" />
+          <ScalarProperty Name="Genotype_Id" ColumnName="Genotype_Id" />
+          <ScalarProperty Name="Home_Town" ColumnName="Home_Town" />
+          <ScalarProperty Name="Email_Address" ColumnName="Email_Address" />
+          <ScalarProperty Name="Religion_Id" ColumnName="Religion_Id" />
+          <ScalarProperty Name="Religion_Name" ColumnName="Religion_Name" />
+          <ScalarProperty Name="Gender_Name" ColumnName="Gender_Name" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
+          <ScalarProperty Name="PostGraduate_Faculty_Id" ColumnName="PostGraduate_Faculty_Id" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Expr2" ColumnName="Expr2" />
+          <ScalarProperty Name="PostGraduate_Department_Id" ColumnName="PostGraduate_Department_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_POSTGRADUATE_PROSPECTIVE_PAYBILL_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_POSTGRADUATE_PROSPECTIVE_PAYBILL_PAYMENT">
+        <MappingFragment StoreEntitySet="VW_POSTGRADUATE_PROSPECTIVE_PAYBILL_PAYMENT">
+          <ScalarProperty Name="Fee_Schedule_Name" ColumnName="Fee_Schedule_Name" />
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+          <ScalarProperty Name="payment_reference" ColumnName="payment_reference" />
+          <ScalarProperty Name="Payment_Id" ColumnName="Payment_Id" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Invoice_Number" ColumnName="Invoice_Number" />
+          <ScalarProperty Name="invoice_amount" ColumnName="invoice_amount" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="PostGraduate_Department_Id" ColumnName="PostGraduate_Department_Id" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Status_Id" ColumnName="Status_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_PROSPECTIVE">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_PROSPECTIVE">
+        <MappingFragment StoreEntitySet="VW_PROSPECTIVE">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="application_number" ColumnName="application_number" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="sessionId" ColumnName="sessionId" />
+          <ScalarProperty Name="Programme_Name" ColumnName="Programme_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Passport_Url" ColumnName="Passport_Url" />
+          <ScalarProperty Name="SecondDepartment" ColumnName="SecondDepartment" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="OLevel_Result_Id" ColumnName="OLevel_Result_Id" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Name" ColumnName="OLevel_Subject_Grade_Name" />
+          <ScalarProperty Name="Olevel_Exam_Attempt_Id" ColumnName="Olevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="OLevel_Subject_Name" ColumnName="OLevel_Subject_Name" />
+          <ScalarProperty Name="Mobile_Phone" ColumnName="Mobile_Phone" />
+          <ScalarProperty Name="AdmissionTypeName" ColumnName="AdmissionTypeName" />
+          <ScalarProperty Name="AdmissionTypeId" ColumnName="AdmissionTypeId" />
+          <ScalarProperty Name="Gender_Id" ColumnName="Gender_Id" />
+          <ScalarProperty Name="Gender_Name" ColumnName="Gender_Name" />
+          <ScalarProperty Name="Contact_Address" ColumnName="Contact_Address" />
+          <ScalarProperty Name="Email_Address" ColumnName="Email_Address" />
+          <ScalarProperty Name="Date_Of_Birth" ColumnName="Date_Of_Birth" />
+          <ScalarProperty Name="State_Id" ColumnName="State_Id" />
+          <ScalarProperty Name="State_Name" ColumnName="State_Name" />
+          <ScalarProperty Name="Local_Government_Id" ColumnName="Local_Government_Id" />
+          <ScalarProperty Name="Local_Government_Name" ColumnName="Local_Government_Name" />
+          <ScalarProperty Name="Home_Town" ColumnName="Home_Town" />
+          <ScalarProperty Name="Country_Id" ColumnName="Country_Id" />
+          <ScalarProperty Name="Religion_Id" ColumnName="Religion_Id" />
+          <ScalarProperty Name="Religion_Name" ColumnName="Religion_Name" />
+          <ScalarProperty Name="Genotype_Id" ColumnName="Genotype_Id" />
+          <ScalarProperty Name="Disability_Id" ColumnName="Disability_Id" />
+          <ScalarProperty Name="Disability_Name" ColumnName="Disability_Name" />
+          <ScalarProperty Name="Tribe_Id" ColumnName="Tribe_Id" />
+          <ScalarProperty Name="Tribe_Name" ColumnName="Tribe_Name" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="Country_Name" ColumnName="Country_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_PROSPECTIVE_ACADEMIC_REPORT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_PROSPECTIVE_ACADEMIC_REPORT">
+        <MappingFragment StoreEntitySet="VW_PROSPECTIVE_ACADEMIC_REPORT">
+          <ScalarProperty Name="OLevel_Result_Id" ColumnName="OLevel_Result_Id" />
+          <ScalarProperty Name="Olevel_Exam_Attempt_Id" ColumnName="Olevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="OLevel_Subject_Name" ColumnName="OLevel_Subject_Name" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Name" ColumnName="OLevel_Subject_Grade_Name" />
+          <ScalarProperty Name="OLevel_Exam_Attempt_Name" ColumnName="OLevel_Exam_Attempt_Name" />
+          <ScalarProperty Name="Olevel_Exam_Name" ColumnName="Olevel_Exam_Name" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Jamb_Registration_Number" ColumnName="Jamb_Registration_Number" />
+          <ScalarProperty Name="Jamb_Score" ColumnName="Jamb_Score" />
+          <ScalarProperty Name="Exam_Year" ColumnName="Exam_Year" />
+          <ScalarProperty Name="Olevel_Exam_Year" ColumnName="Olevel_Exam_Year" />
+          <ScalarProperty Name="Olevel_Exam_Number" ColumnName="Olevel_Exam_Number" />
+          <ScalarProperty Name="First_Department_Id" ColumnName="First_Department_Id" />
+          <ScalarProperty Name="Second_Department_Id" ColumnName="Second_Department_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_PROSPECTIVE_OLEVEL_RESULT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_PROSPECTIVE_OLEVEL_RESULT">
+        <MappingFragment StoreEntitySet="VW_PROSPECTIVE_OLEVEL_RESULT">
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="RejectionReason" ColumnName="RejectionReason" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="Status_Id" ColumnName="Status_Id" />
+          <ScalarProperty Name="Gender_Id" ColumnName="Gender_Id" />
+          <ScalarProperty Name="OLevel_Exam_Attempt_Name" ColumnName="OLevel_Exam_Attempt_Name" />
+          <ScalarProperty Name="Olevel_Exam_Name" ColumnName="Olevel_Exam_Name" />
+          <ScalarProperty Name="Olevel_Exam_Year" ColumnName="Olevel_Exam_Year" />
+          <ScalarProperty Name="Olevel_Exam_Number" ColumnName="Olevel_Exam_Number" />
+          <ScalarProperty Name="OLevel_Subject_Grade_Name" ColumnName="OLevel_Subject_Grade_Name" />
+          <ScalarProperty Name="OLevel_Subject_Name" ColumnName="OLevel_Subject_Name" />
+          <ScalarProperty Name="Passport_Url" ColumnName="Passport_Url" />
+          <ScalarProperty Name="Olevel_Exam_Attempt_Id" ColumnName="Olevel_Exam_Attempt_Id" />
+          <ScalarProperty Name="Mobile_Phone" ColumnName="Mobile_Phone" />
+          <ScalarProperty Name="State_Id" ColumnName="State_Id" />
+          <ScalarProperty Name="Religion_Id" ColumnName="Religion_Id" />
+          <ScalarProperty Name="State_Name" ColumnName="State_Name" />
+          <ScalarProperty Name="Religion_Name" ColumnName="Religion_Name" />
+          <ScalarProperty Name="Date_Of_Birth" ColumnName="Date_Of_Birth" />
+          <ScalarProperty Name="Contact_Address" ColumnName="Contact_Address" />
+          <ScalarProperty Name="Email_Address" ColumnName="Email_Address" />
+          <ScalarProperty Name="Tribe_Name" ColumnName="Tribe_Name" />
+          <ScalarProperty Name="Country_Name" ColumnName="Country_Name" />
+          <ScalarProperty Name="Local_Government_Name" ColumnName="Local_Government_Name" />
+          <ScalarProperty Name="Gender_Name" ColumnName="Gender_Name" />
+          <ScalarProperty Name="Home_Town" ColumnName="Home_Town" />
+          <ScalarProperty Name="Hobbies" ColumnName="Hobbies" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="Disability_Name" ColumnName="Disability_Name" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_PROSPECTIVE_STUDENT_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_PROSPECTIVE_STUDENT_PAYMENT">
+        <MappingFragment StoreEntitySet="VW_PROSPECTIVE_STUDENT_PAYMENT">
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Appication_Number" ColumnName="Appication_Number" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Admitted" ColumnName="Admitted" />
+          <ScalarProperty Name="AdmissionTypeName" ColumnName="AdmissionTypeName" />
+          <ScalarProperty Name="Status_Id" ColumnName="Status_Id" />
+          <ScalarProperty Name="Date_Entered" ColumnName="Date_Entered" />
+          <ScalarProperty Name="Faculty_Id" ColumnName="Faculty_Id" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Passport_Url" ColumnName="Passport_Url" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_STUDENT_DEPARTMENT_HOSTEL_REPORT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_STUDENT_DEPARTMENT_HOSTEL_REPORT">
+        <MappingFragment StoreEntitySet="VW_STUDENT_DEPARTMENT_HOSTEL_REPORT">
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Matric_Number" ColumnName="Matric_Number" />
+          <ScalarProperty Name="Hostel_Name" ColumnName="Hostel_Name" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Room_Name" ColumnName="Room_Name" />
+          <ScalarProperty Name="Room_Id" ColumnName="Room_Id" />
+          <ScalarProperty Name="Room_Corner_Id" ColumnName="Room_Corner_Id" />
+          <ScalarProperty Name="Room_Corner_Name" ColumnName="Room_Corner_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Gender_Name" ColumnName="Gender_Name" />
+          <ScalarProperty Name="Level_Name" ColumnName="Level_Name" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          <ScalarProperty Name="Hostel_Id" ColumnName="Hostel_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_STUDENT_HOSTEL_ALLOCATION">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_STUDENT_HOSTEL_ALLOCATION">
+        <MappingFragment StoreEntitySet="VW_STUDENT_HOSTEL_ALLOCATION">
+          <ScalarProperty Name="Student_Hostel_Id" ColumnName="Student_Hostel_Id" />
+          <ScalarProperty Name="Room_Id" ColumnName="Room_Id" />
+          <ScalarProperty Name="Hostel_Id" ColumnName="Hostel_Id" />
+          <ScalarProperty Name="Hostel_Gender_Id" ColumnName="Hostel_Gender_Id" />
+          <ScalarProperty Name="Series_Id" ColumnName="Series_Id" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Student_Id" ColumnName="Student_Id" />
+          <ScalarProperty Name="Student_Level_Id" ColumnName="Student_Level_Id" />
+          <ScalarProperty Name="Room_Corner_Id" ColumnName="Room_Corner_Id" />
+          <ScalarProperty Name="Hostel_Name" ColumnName="Hostel_Name" />
+          <ScalarProperty Name="Room_Name" ColumnName="Room_Name" />
+          <ScalarProperty Name="Room_Corner_Name" ColumnName="Room_Corner_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Level_Name" ColumnName="Level_Name" />
+          <ScalarProperty Name="Gender_Name" ColumnName="Gender_Name" />
+          <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_STUDENT_PAYMENT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_STUDENT_PAYMENT">
+        <MappingFragment StoreEntitySet="VW_STUDENT_PAYMENT">
+          <ScalarProperty Name="Transaction_Amount" ColumnName="Transaction_Amount" />
+          <ScalarProperty Name="Transaction_Date" ColumnName="Transaction_Date" />
+          <ScalarProperty Name="Confirmation_No" ColumnName="Confirmation_No" />
+          <ScalarProperty Name="Fee_Schedule_Id" ColumnName="Fee_Schedule_Id" />
+          <ScalarProperty Name="Invoice_Number" ColumnName="Invoice_Number" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Matric_Number" ColumnName="Matric_Number" />
+          <ScalarProperty Name="Fee_Schedule_Name" ColumnName="Fee_Schedule_Name" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Programme_Name" ColumnName="Programme_Name" />
+          <ScalarProperty Name="Level_Name" ColumnName="Level_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+          <ScalarProperty Name="Faculty_Id" ColumnName="Faculty_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_STUDENT_RESULT">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_STUDENT_RESULT">
+        <MappingFragment StoreEntitySet="VW_STUDENT_RESULT">
+          <ScalarProperty Name="Level_Name" ColumnName="Level_Name" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Semester_Id" ColumnName="Semester_Id" />
+          <ScalarProperty Name="Semester_Name" ColumnName="Semester_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Date_Registered" ColumnName="Date_Registered" />
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+          <ScalarProperty Name="Course_Type_Id" ColumnName="Course_Type_Id" />
+          <ScalarProperty Name="Course_Code" ColumnName="Course_Code" />
+          <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
+          <ScalarProperty Name="Course_Unit" ColumnName="Course_Unit" />
+          <ScalarProperty Name="Test_Score" ColumnName="Test_Score" />
+          <ScalarProperty Name="Exam_Score" ColumnName="Exam_Score" />
+          <ScalarProperty Name="Total_Score" ColumnName="Total_Score" />
+          <ScalarProperty Name="Date_Uploaded" ColumnName="Date_Uploaded" />
+          <ScalarProperty Name="Student_Grade_Id" ColumnName="Student_Grade_Id" />
+          <ScalarProperty Name="Is_Absent" ColumnName="Is_Absent" />
+          <ScalarProperty Name="Person_Id" ColumnName="Person_Id" />
+          <ScalarProperty Name="Passport_Url" ColumnName="Passport_Url" />
+          <ScalarProperty Name="Programme_Id" ColumnName="Programme_Id" />
+          <ScalarProperty Name="Programme_Name" ColumnName="Programme_Name" />
+          <ScalarProperty Name="Matric_Number" ColumnName="Matric_Number" />
+          <ScalarProperty Name="Grade_Name" ColumnName="Grade_Name" />
+          <ScalarProperty Name="Grade_Point" ColumnName="Grade_Point" />
+          <ScalarProperty Name="Faculty_Name" ColumnName="Faculty_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VW_STUDENT_RESULT_TEST">
+      <EntityTypeMapping TypeName="Liberty_Jedi_GodfreyModel.VW_STUDENT_RESULT_TEST">
+        <MappingFragment StoreEntitySet="VW_STUDENT_RESULT_TEST">
+          <ScalarProperty Name="Level_Name" ColumnName="Level_Name" />
+          <ScalarProperty Name="Level_Id" ColumnName="Level_Id" />
+          <ScalarProperty Name="Semester_Id" ColumnName="Semester_Id" />
+          <ScalarProperty Name="Semester_Name" ColumnName="Semester_Name" />
+          <ScalarProperty Name="Session_Name" ColumnName="Session_Name" />
+          <ScalarProperty Name="Session_Id" ColumnName="Session_Id" />
+          <ScalarProperty Name="Last_Name" ColumnName="Last_Name" />
+          <ScalarProperty Name="First_Name" ColumnName="First_Name" />
+          <ScalarProperty Name="Other_Name" ColumnName="Other_Name" />
+          <ScalarProperty Name="Department_Id" ColumnName="Department_Id" />
+          <ScalarProperty Name="Department_Name" ColumnName="Department_Name" />
+          <ScalarProperty Name="Date_Registered" ColumnName="Date_Registered" />
+          <ScalarProperty Name="Course_Id" ColumnName="Course_Id" />
+          <ScalarProperty Name="Course_Type_Id" ColumnName="Course_Type_Id" />
+          <ScalarProperty Name="Course_Code" ColumnName="Course_Code" />
+          <ScalarProperty Name="Course_Name" ColumnName="Course_Name" />
+          <ScalarProperty Name="Course_Unit" ColumnName="Course_Unit" />
+          <ScalarProperty Name="Test_Score" ColumnName="Test_Score" />
+          <ScalarProperty Name="Exam_Score" ColumnName="Exam_Score" />
+          <ScalarProperty Name="Total_Score" ColumnName="Total_Score" />
+          <ScalarProperty Name="Date_Uploaded" ColumnName="Date_Uploaded" />
+          <ScalarProperty Name="Student_Grade_Id" ColumnName="Student_Grade_Id" />
+          <ScalarProperty Name="Is_Absent" ColumnName="Is_Absent" />
+          <ScalarProperty Name="Grade_Name" ColumnName="Grade_Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "RegisterCourses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Register Courses</h2>
+<!--button trigger for modal-->
+<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#MyModal" > <span class="glyphicon glyphicon-plus"></span> Add Course </button>
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>S/N</th>
+            <th>SESSION</th>
+            <th>COURSE CODE</th>
+            <th>COURSE TITLE</th>
+            <th>SEMESTER</th>
+            <th>UNIT</th>
+            <th>SUBMITTED</th>
+            <th>APPROVED</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>1</th>
+            <td>2017-2018</td>
+            <td>ECE 451</td>
+            <td>CONTROL ENGINEERING</td>
+            <td>1</td>
+            <td>3</td>
+            <td style="text-align:center"><i class="glyphicon glyphicon-ok" style="color:green;"></i></td>
+            <td style="text-align:center"><i class="glyphicon glyphicon-remove" style="color:red;" ></i></td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <th></th>
+            <td></td>
+            <td></td>
+            <td>TOTAL UNITS REGISTERED TILL DATE:</td>
+            <td></td>
+            <td>24</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+   
+    
+</table>
+
+
+
+<div style="margin-bottom:40px; padding-bottom:10px;">
+  <div class="pull-left"> Academic Adviser's Name & Signature </div>  <div class="pull-left">.............................................. </div><div class="pull-left"> Date :  ...................................</div>
+</div>
+   
+<!--Modal-->
+<div class="modal fade" id="MyModal" tabindex="-1" role="dialog" aria-labelledby="MyModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+               <h3 style="text-align:center;">Select Course</h3>
+            </div>
+            <div class="modal-body">
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Course Code</th>
+                            <th>Course Title</th>
+                            <th>Unit</th>
+                            <td>Add</td>
+                            <td>Remove</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ECE 451</td>
+                            <td>Electronic Magnet</td>
+                            <td>3</td>
+                            <td><button class="glyphicon glyphicon-ok btn btn-primary"></button></td>
+                            <td><button class="glyphicon glyphicon-remove btn btn-danger"></button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer" >
+                <button class="btn btn-default close-modal" type="submit" data-dissmiss="modal " aria-hidden="true">
+                    Close
+                </button>
+                <button type="button" class="btn btn-primary">
+                    submit changes
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{
+    <script>    
+        $(document).ready(function () {
+          
+            $(".close-modal").click(function () {
+                $("#MyModal").modal("hide");
+             
+            });
+        });
+    </script>
+  
+}
